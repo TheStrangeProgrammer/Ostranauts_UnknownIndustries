@@ -1,0 +1,186 @@
+[
+    {
+        "strName": "UI_COND_Hand_L_GlowStick_On",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "condition"
+    },
+    {
+        "strName": "UI_COND_Hand_L_Remove_GlowStick_On",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "condition"
+    },
+    {
+        "strName": "UI_COND_Hand_R_GlowStick_On",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "condition"
+    },
+    {
+        "strName": "UI_COND_Hand_R_Remove_GlowStick_On",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "condition"
+    },
+
+    {
+        "strName": "UI_Itm_GlowStick_Red",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Red_On",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Green",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Green_On",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Blue",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Blue_On",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Purple",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Purple_On",
+        "aCOs": [
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Used",
+        "aCOs": [
+            "UI_Itm_GlowStick_Used=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_ACT_GlowStick_On_To_GlowStick_Used",
+        "aCOs": [
+            "UI_MS_GlowStick_Used=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "interaction"
+    },
+    {
+        "strName": "UI_COND_Tick_GlowStick_On",
+        "aCOs": [
+            "UI_Stat_GlowStick_Used=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "condition"
+    },
+    {
+        "strName" : "ItmSupplyKioskInv",
+        "aCOs"    : [
+        ],
+        "aLoots"  : [
+          "ItmBackpack02=0.5x1",
+          "ItmCrate01=0.5x2",
+          "ItmToolBox01=0.5x1-2",
+          "ItmToolBox02=1.0x2-4",      
+          "ItmDolly01=1.0x1",
+          "ItmToolWorkLamp01New=1.0x2-4",
+          "ItmToolCrowbar01=1.0x3",
+          "ItmToolScrewDriver01=1.0x3",
+          "ItmToolHacksaw01=1.0x3",
+          "ItmToolSolderingIron01New=1.0x3",
+          "ItmToolDrill01New=1.0x3",
+          "ItmToolGrinder02New=1.0x3",
+          "ItmToolLaserTorch01New=1.0x1-2",
+          "ItmToolWelder01New=1.0x3",
+          "ItmChargerBattDrill01OffLoose=1.0x1-2",
+          "ItmChargerBattWelder01OffLoose=1.0x1-2",
+          "ItmChargerBattery04OffLoose=1.0x1",
+          "ItmBatteryDrill01=1.0x3",
+          "ItmBatteryWelder01=1.0x3",
+          "ItmBattery04=1.0x2",
+          "ItmBatteryDisp01=1.0x10-20",
+          "ItmBattery03=1.0x3-5",
+          "ItmBattery02cLoose=1.0x6",
+          "ItmWristPDA01=1.0x1-2",
+          "ItmDataCard01=1.0x1-3",
+          "ItmWeaponPocketKnife01=1.0x1-2",
+          "ItmOxygenCandle01=1.0x15",
+          "ItmCanisterO2Small=1.0x3-5",
+          "ItmFilterCO202=1.0x3-5",
+          "OutfitEVA01Full=1.0x1",
+          "OutfitHelmet03=1.0x1",
+          "OutfitHelmet02=1.0x1",
+          "OutfitPS01=1.0x1-5",
+          "OutfitPS02=0.05x1",
+          "ItmFilterCO201=1.0x5-10",
+          "ItmRTAO2Loose=1.0x2-3",
+          "ItmRTAN2Loose=1.0x2-3",
+          "ItmRTACO2Loose=1.0x1-2",
+          "ItmAirPump03OffLoose=1.0x1",
+          "ItmCargoWeb01Loose=1.0x5-10",
+          "ItmRandomTrenchersOriginal=1.0x15",
+          "ItmDrinkPouchWaterNew=1.0x10-20",
+          "ItmRandomDrinkNew=0.25x1",
+          "ItmRandomDrinkNew=0.25x1",
+          "ItmRandomDrinkNew=0.25x1",
+          "ItmRandomDrinkNew=0.25x1",
+          "ItmRandomDrinkLiquor=1.0x1-2",
+          "ItmDrinkFlask01WaterNew=1.0x4-6",
+          "ItmDrinkFlask02WaterNew=1.0x4-10",
+          "ItmCigViceroyBox01New=1.0x10-20",
+          "ItmCigBoxNew=1.0x12-15",
+          "ItmScrapClothClean=1.0x4-8",
+          "ItmHygieneWipes01=1.0x5-15",
+          "ItmRandomToothbrush=0.1x3",
+          "ItmHullPatch01=1.0x15",
+          "ItmSealTemp01Loose=1.0x15",
+          "ItmToolFireEx01=1.0x1",
+          "ItmFusionABLWall01Loose=1.0x3",
+          "ItmRandomClothesSingleTraders=1.0x4-6",
+          "ItmBookEnvManual01=0.5x1-2",
+          "ItmBookFusionManual01=0.5x1-2",
+          "ItmBookPolarisNavManual01=0.5x1-2",
+          "UI_Itm_GlowStick_Red=0.25x1-10",
+          "UI_Itm_GlowStick_Green=0.25x1-10",
+          "UI_Itm_GlowStick_Blue=0.25x1-10",
+          "UI_Itm_GlowStick_Purple=0.25x1-10",
+          "ItmDocumentOgiso01Loose=1.0x10-25"
+        ],
+        "strType" : "item"
+      }
+]

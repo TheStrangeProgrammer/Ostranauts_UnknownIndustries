@@ -1,0 +1,50 @@
+[
+    {
+        "strName": "UI_Stat_GlowStick_Used",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "[us]'s Timer.",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_Stat_GlowStick_Used_Max",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "[us]'s Max Timer.",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "Is_GlowStick_Red",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "Is_GlowStick_Green",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "Is_GlowStick_Blue",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "Is_GlowStick_Purple",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+    "strName" : "EVAS_Multitool_EVASuit",
+    "aInputPts"      : [
+    ],
+    "fAmount": 0.0000278,
+    "strIntPowerOn": "EVAS_Multitool_MSEVASwitchOnAllow",
+    "strIntPowerOff": "EVAS_Multitool_MSEVASwitchOffAllow",
+    "strUsePowerCT": "TIsReadyUsePowerEVA",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  false,
+    "strPowerSourceCT" : "TIsPowerStorageEVA"
+  }
+]

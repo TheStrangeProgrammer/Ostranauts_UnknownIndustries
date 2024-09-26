@@ -1,0 +1,46 @@
+[
+    {
+        "strName" : "EVAS_Multitool_MSEVASwitchOffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] switches off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsEVAOn",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "EVAS_MultitoolEVAOffEmpty"
+      },
+      {
+        "strName" : "EVAS_Multitool_MSEVASwitchOnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] switches on.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsEVAOff",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "EVAS_MultitoolEVAEmpty"
+      }
+]

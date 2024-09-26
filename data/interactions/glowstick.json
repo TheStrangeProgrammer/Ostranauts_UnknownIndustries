@@ -1,0 +1,245 @@
+[
+  
+  {
+    "strName" : "UI_SLOT_Hand_L_GlowStick_On",
+    "strDesc" : "[us] is slotted on [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWieldedDefaultL",
+    "LootCondsThem"       : "UI_COND_Hand_L_GlowStick_On",
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ],
+    "aAModesAddedThem"         : [
+      "ACTMeleeWeapon;AModeDefault;CTWieldedL",
+      "ACTMeleeFinalBlowWeapon;AModeDefaultHelpless;CTWieldedL"
+    ]
+  },
+  {
+    "strName" : "UI_SLOT_Hand_R_GlowStick_On",
+    "strDesc" : "[us] is slotted on [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWieldedDefaultR",
+    "LootCondsThem"       : "UI_COND_Hand_R_GlowStick_On",
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ],
+    "aAModesAddedThem"         : [
+      "ACTMeleeWeapon;AModeDefault;CTWieldedR",
+      "ACTMeleeFinalBlowWeapon;AModeDefaultHelpless;CTWieldedR"
+    ]
+  },
+  {
+    "strName" : "UI_UNSLOT_Hand_L_GlowStick_On",
+    "strDesc" : "[us] is slotted on [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWieldedDefaultLRemove",
+    "LootCondsThem"       : "UI_COND_Hand_L_Remove_GlowStick_On",
+    "CTTestUs"          : null,
+    "CTTestThem"        : null,
+    "aLootItms"         : [
+    ],
+    "aAModesAddedThem"         : [
+      "-ACTMeleeWeapon;AModeDefault;CTWieldedL",
+      "-ACTMeleeFinalBlowWeapon;AModeDefaultHelpless;CTWieldedL"
+    ]
+  },
+  {
+    "strName" : "UI_UNSLOT_Hand_R_GlowStick_On",
+    "strDesc" : "[us] is slotted on [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : "CONDWieldedDefaultRRemove",
+    "LootCondsThem"       : "UI_COND_Hand_R_Remove_GlowStick_On",
+    "CTTestUs"          : null,
+    "CTTestThem"        : null,
+    "aLootItms"         : [
+    ],
+    "aAModesAddedThem"         : [
+      "-ACTMeleeWeapon;AModeDefault;CTWieldedR",
+      "-ACTMeleeFinalBlowWeapon;AModeDefaultHelpless;CTWieldedR"
+    ]
+  },
+  {
+    "strName" : "UI_ACT_Light_GlowStick_Deny",
+    "strTitle" : "",
+    "strDesc" : "[them] can't light [us]. Perhaps it's not equipped?",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : null,
+    "strBubble"         : null,
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0.00027,
+    "bIgnoreFeelings" : true,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : null,
+    "CTTestThem"         : null,
+    "aLootItms"   		: [
+    ],
+    "objLootModeSwitch"    : null
+  },
+  {
+    "strName" : "UI_ACT_Light_GlowStick",
+    "strTitle" : "Light up",
+    "strDesc" : "[us] decides to light [them].",
+    "strTooltip" : "Lights a glow stick in a hand slot.",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 0,
+    "strAnim"           : "Tablet",
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+      "UI_ACT_Light_GlowStick_Red_Allow",
+      "UI_ACT_Light_GlowStick_Green_Allow",
+      "UI_ACT_Light_GlowStick_Blue_Allow",
+      "UI_ACT_Light_GlowStick_Purple_Allow",
+      "UI_ACT_Light_GlowStick_Deny"
+    ],
+    "fDuration"         : 0.0001,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "bOpener"     : true,
+    "bIgnoreFeelings" : true,
+    "bPassThrough"     : true,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsHumanAwake",
+    "CTTestThem"         : null,
+    "aLootItms"   		: [
+    ],
+    "objLootModeSwitch"    : null
+  },
+  {
+    "strName" : "UI_ACT_Light_GlowStick_Red_Allow",
+    "strTitle" : "Lighting",
+    "strDesc" : "[them] finishes lighting [us].",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : "Tablet",
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0,
+    "bIgnoreFeelings" : true,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "UI_T_Is_GlowStick_Red",
+    "CTTestThem"         : null,
+    "aLootItms"   		: [ 
+    ],
+    "objLootModeSwitch"    : "UI_Itm_GlowStick_Red_On"
+  },
+  {
+    "strName" : "UI_ACT_Light_GlowStick_Green_Allow",
+    "strTitle" : "Lighting",
+    "strDesc" : "[them] finishes lighting [us].",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : "Tablet",
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0,
+    "bIgnoreFeelings" : true,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "UI_T_Is_GlowStick_Green",
+    "CTTestThem"         : null,
+    "aLootItms"   		: [ 
+    ],
+    "objLootModeSwitch"    : "UI_Itm_GlowStick_Green_On"
+  },
+  {
+    "strName" : "UI_ACT_Light_GlowStick_Blue_Allow",
+    "strTitle" : "Lighting",
+    "strDesc" : "[them] finishes lighting [us].",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : "Tablet",
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0,
+    "bIgnoreFeelings" : true,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "UI_T_Is_GlowStick_Blue",
+    "CTTestThem"         : null,
+    "aLootItms"   		: [ 
+    ],
+    "objLootModeSwitch"    : "UI_Itm_GlowStick_Blue_On"
+  },
+  {
+    "strName" : "UI_ACT_Light_GlowStick_Purple_Allow",
+    "strTitle" : "Lighting",
+    "strDesc" : "[them] finishes lighting [us].",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : "Tablet",
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0,
+    "bIgnoreFeelings" : true,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "UI_T_Is_GlowStick_Purple",
+    "CTTestThem"         : null,
+    "aLootItms"   		: [ 
+    ],
+    "objLootModeSwitch"    : "UI_Itm_GlowStick_Purple_On"
+  },
+  {
+    "strName" : "UI_MS_GlowStick_Used",
+    "strTitle" : "",
+    "strDesc" : "[us] is reduced to a used glow stick.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "aLootItms"   		: [ 
+    ],
+    "objLootModeSwitch"    : "UI_Itm_GlowStick_Used",
+    "bModeSwitchCheckFit" : true
+  }
+  
+]

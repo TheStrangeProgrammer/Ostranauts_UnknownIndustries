@@ -1,0 +1,153 @@
+[
+  {
+    "strName": "EVAS_MultitoolEVA01",
+    "strImg": "CrewSuit03",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit03",
+    "strDmgColor": "DamageTintNone",
+    "fZScale": 0.02,
+    "nCols": 2,
+    "aSocketAdds": [
+      "TILItemAdds",
+      "TILItemAdds"
+    ],
+    "aSocketForbids": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "TILItemForbids",
+      "TILItemForbids",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
+    ],
+    "aSocketReqs": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
+    ]
+  },
+  
+  {
+    "strName": "EVAS_MultitoolEVA01Dmg",
+    "strImg": "CrewSuit03Dmg02",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "",
+    "strDmgColor": "DamageTintBlack",
+    "fZScale": 0.02,
+    "nCols": 2,
+    "aSocketAdds": [
+      "TILItemAdds",
+      "TILItemAdds"
+    ],
+    "aSocketForbids": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "TILItemForbids",
+      "TILItemForbids",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
+    ],
+    "aSocketReqs": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
+    ]
+  },
+  {
+    "strName": "EVAS_MultitoolEVAHelmet03",
+    "strImg": "CrewHelmet03",
+    "strImgNorm": "CrewHelmet03n",
+    "strImgDamaged": "CrewHelmet03Dmg02",
+    "strDmgColor": "DamageTintNone",
+    "fZScale": 0.02,
+    "nCols": 1,
+    "aSocketAdds": [
+      "TILItemAdds"
+    ],
+    "aSocketForbids": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "TILItemForbids",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
+    ],
+    "aSocketReqs": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
+    ]
+  },
+  {
+    "strName": "EVAS_MultitoolEVAHelmet03Dmg",
+    "strImg": "CrewHelmet03Dmg02",
+    "strImgNorm": "CrewHelmet03n",
+    "strImgDamaged": "",
+    "strDmgColor": "DamageTintYellowed",
+    "fZScale": 0.02,
+    "nCols": 1,
+    "aSocketAdds": [
+      "TILItemAdds"
+    ],
+    "aSocketForbids": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "TILItemForbids",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
+    ],
+    "aSocketReqs": [
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank",
+      "Blank"
+    ]
+  }
+]

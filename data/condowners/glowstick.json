@@ -1,0 +1,391 @@
+[
+  {
+    "strName": "UI_Itm_GlowStick_Red",
+    "strNameShort": "Glow Stick",
+    "strNameFriendly": "'Unknown Industries' Red Glow Stick",
+    "strDesc": "A red 'Unknown Industries'-brand single-use industrial grade glow stick that once lit it will illuminate an area for 12 hours.",
+    "strItemDef": "UI_Itm_GlowStick_Red",
+    "strType": "Item",
+    "aInteractions": [
+      "UI_ACT_Light_GlowStick",
+      "DropItem",
+      "PickupItem",
+      "ACTBash"
+    ],
+    "aStartingConds": [
+      "Is_GlowStick_Red=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x16.0",
+      "StatMass=1.0x0.68",
+      "StatDamageMax=1.0x8"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg": "glowstick/UI_Itm_GlowStick",
+    "strAudioEmitter": "ItmToolGeneralSound"
+  },
+  {
+    "strName": "UI_Itm_GlowStick_Red_On",
+    "strNameShort": "Glow Stick",
+    "strNameFriendly": "'Unknown Industries' Red Glow Stick (Lit)",
+    "strDesc": "A red 'Unknown Industries'-brand single-use industrial grade glow stick that is lit. It will remain lit for up to 12 hours",
+    "strItemDef": "UI_Itm_GlowStick_Red_On",
+    "strType": "Item",
+    "aInteractions": [
+      "DropItem",
+      "PickupItem",
+      "ACTBash"
+    ],
+    "aStartingConds": [
+      "Is_GlowStick_Red=1.0x1.0",
+      "IsNotForSale=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "StatMass=1.0x0.68",
+      "UI_Stat_GlowStick_Used_Max=1.0x43200-50400",
+      "StatDamageMax=1.0x1.0",
+      "IsLightSource=1.0x1.0"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "mapPoints": [],
+    "mapSlotEffects": [
+      "heldL",
+      "UI_Held_L_GlowStick_On",
+      "heldR",
+      "UI_Held_R_GlowStick_On"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0",
+      "Destructable,UI_Stat_GlowStick_Used,UI_ACT_GlowStick_On_To_GlowStick_Used,UI_Stat_GlowStick_Used_Max,1.0"
+    ],
+    "aTickers": [
+      "UI_GlowStick_On"
+    ],
+    "strPortraitImg": "glowstick/UI_Itm_GlowStick_Red_On",
+    "strAudioEmitter": "ItmToolGeneralSound"
+  },
+  {
+    "strName": "UI_Itm_GlowStick_Green",
+    "strNameShort": "Glow Stick",
+    "strNameFriendly": "'Unknown Industries' Green Glow Stick",
+    "strDesc": "A green 'Unknown Industries'-brand single-use industrial grade glow stick that once lit it will illuminate an area for 12 hours.",
+    "strItemDef": "UI_Itm_GlowStick_Green",
+    "strType": "Item",
+    "aInteractions": [
+      "UI_ACT_Light_GlowStick",
+      "DropItem",
+      "PickupItem",
+      "ACTBash"
+    ],
+    "aStartingConds": [
+      "Is_GlowStick_Green=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x16.0",
+      "StatMass=1.0x0.68",
+      "StatDamageMax=1.0x8"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg": "glowstick/UI_Itm_GlowStick",
+    "strAudioEmitter": "ItmToolGeneralSound"
+  },
+  {
+    "strName": "UI_Itm_GlowStick_Green_On",
+    "strNameShort": "Glow Stick",
+    "strNameFriendly": "'Unknown Industries' Green Glow Stick (Lit)",
+    "strDesc": "A green 'Unknown Industries'-brand single-use industrial grade glow stick that is lit. It will remain lit for up to 12 hours",
+    "strItemDef": "UI_Itm_GlowStick_Green_On",
+    "strType": "Item",
+    "aInteractions": [
+      "DropItem",
+      "PickupItem",
+      "ACTBash"
+    ],
+    "aStartingConds": [
+      "Is_GlowStick_Green=1.0x1.0",
+      "IsNotForSale=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "StatMass=1.0x0.68",
+      "UI_Stat_GlowStick_Used_Max=1.0x43200-50400",
+      "StatDamageMax=1.0x1.0",
+      "IsLightSource=1.0x1.0"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "mapPoints": [],
+    "mapSlotEffects": [
+      "heldL",
+      "UI_Held_L_GlowStick_On",
+      "heldR",
+      "UI_Held_R_GlowStick_On"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0",
+      "Destructable,UI_Stat_GlowStick_Used,UI_ACT_GlowStick_On_To_GlowStick_Used,UI_Stat_GlowStick_Used_Max,1.0"
+    ],
+    "aTickers": [
+      "UI_GlowStick_On"
+    ],
+    "strPortraitImg": "glowstick/UI_Itm_GlowStick_Green_On",
+    "strAudioEmitter": "ItmToolGeneralSound"
+  },
+  {
+    "strName": "UI_Itm_GlowStick_Blue",
+    "strNameShort": "Glow Stick",
+    "strNameFriendly": "'Unknown Industries' Blue Glow Stick",
+    "strDesc": "A blue 'Unknown Industries'-brand single-use industrial grade glow stick that once lit it will illuminate an area for 12 hours.",
+    "strItemDef": "UI_Itm_GlowStick_Blue",
+    "strType": "Item",
+    "aInteractions": [
+      "UI_ACT_Light_GlowStick",
+      "DropItem",
+      "PickupItem",
+      "ACTBash"
+    ],
+    "aStartingConds": [
+      "Is_GlowStick_Blue=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x16.0",
+      "StatMass=1.0x0.68",
+      "StatDamageMax=1.0x8"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg": "glowstick/UI_Itm_GlowStick",
+    "strAudioEmitter": "ItmToolGeneralSound"
+  },
+  {
+    "strName": "UI_Itm_GlowStick_Blue_On",
+    "strNameShort": "Glow Stick",
+    "strNameFriendly": "'Unknown Industries' Blue Glow Stick (Lit)",
+    "strDesc": "A blue 'Unknown Industries'-brand single-use industrial grade glow stick that is lit. It will remain lit for up to 12 hours",
+    "strItemDef": "UI_Itm_GlowStick_Blue_On",
+    "strType": "Item",
+    "aInteractions": [
+      "DropItem",
+      "PickupItem",
+      "ACTBash"
+    ],
+    "aStartingConds": [
+      "Is_GlowStick_Blue=1.0x1.0",
+      "IsNotForSale=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "StatMass=1.0x0.68",
+      "UI_Stat_GlowStick_Used_Max=1.0x43200-50400",
+      "StatDamageMax=1.0x1.0",
+      "IsLightSource=1.0x1.0"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "mapPoints": [],
+    "mapSlotEffects": [
+      "heldL",
+      "UI_Held_L_GlowStick_On",
+      "heldR",
+      "UI_Held_R_GlowStick_On"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0",
+      "Destructable,UI_Stat_GlowStick_Used,UI_ACT_GlowStick_On_To_GlowStick_Used,UI_Stat_GlowStick_Used_Max,1.0"
+    ],
+    "aTickers": [
+      "UI_GlowStick_On"
+    ],
+    "strPortraitImg": "glowstick/UI_Itm_GlowStick_Blue_On",
+    "strAudioEmitter": "ItmToolGeneralSound"
+  },
+  {
+    "strName": "UI_Itm_GlowStick_Purple",
+    "strNameShort": "Glow Stick",
+    "strNameFriendly": "'Unknown Industries' Purple Glow Stick",
+    "strDesc": "A purple 'Unknown Industries'-brand single-use industrial grade glow stick that once lit it will illuminate an area for 12 hours.",
+    "strItemDef": "UI_Itm_GlowStick_Purple",
+    "strType": "Item",
+    "aInteractions": [
+      "UI_ACT_Light_GlowStick",
+      "DropItem",
+      "PickupItem",
+      "ACTBash"
+    ],
+    "aStartingConds": [
+      "Is_GlowStick_Purple=1.0x1.0",
+      "IsHandheld=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x16.0",
+      "StatMass=1.0x0.68",
+      "StatDamageMax=1.0x8"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg": "glowstick/UI_Itm_GlowStick",
+    "strAudioEmitter": "ItmToolGeneralSound"
+  },
+  {
+    "strName": "UI_Itm_GlowStick_Purple_On",
+    "strNameShort": "Glow Stick",
+    "strNameFriendly": "'Unknown Industries' Glow Stick (Lit)",
+    "strDesc": "A purple 'Unknown Industries'-brand single-use industrial grade glow stick that is lit. It will remain lit for up to 12 hours",
+    "strItemDef": "UI_Itm_GlowStick_Purple_On",
+    "strType": "Item",
+    "aInteractions": [
+      "DropItem",
+      "PickupItem",
+      "ACTBash"
+    ],
+    "aStartingConds": [
+      "Is_GlowStick_Purple=1.0x1.0",
+      "IsNotForSale=1.0x1",
+      "IsHandheld=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsFlexible=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsPocketable=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "StatMass=1.0x0.68",
+      "UI_Stat_GlowStick_Used_Max=1.0x43200-50400",
+      "StatDamageMax=1.0x1.0",
+      "IsLightSource=1.0x1.0"
+    ],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefault"
+    ],
+    "mapPoints": [],
+    "mapSlotEffects": [
+      "heldL",
+      "UI_Held_L_GlowStick_On",
+      "heldR",
+      "UI_Held_R_GlowStick_On"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0",
+      "Destructable,UI_Stat_GlowStick_Used,UI_ACT_GlowStick_On_To_GlowStick_Used,UI_Stat_GlowStick_Used_Max,1.0"
+    ],
+    "aTickers": [
+      "UI_GlowStick_On"
+    ],
+    "strPortraitImg": "glowstick/UI_Itm_GlowStick_Purple_On",
+    "strAudioEmitter": "ItmToolGeneralSound"
+  },
+  {
+    "strName": "UI_Itm_GlowStick_Used",
+    "strNameShort": "Glow Stick (Used)",
+    "strNameFriendly": "Glow Stick (Used)",
+    "strDesc": "A used glowstick. Useless now.",
+    "strItemDef": "UI_Itm_GlowStick_Used",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 3,
+    "aInteractions": [
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds": [
+      "IsFlexible=1.0x1",
+      "IsHandheld=1.0x1",
+      "IsPartsSmall=1.0x1",
+      "IsTrash=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x0.0",
+      "IsNotForSale=1.0x1",
+      "StatMass=1.0x0.68",
+      "StatDamageMax=1.0x1",
+      "IsCategoryTrash=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "aUpdateCommands": [],
+    "mapGUIPropMaps": [],
+    
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "strPortraitImg": "glowstick/UI_Itm_GlowStick_Used",
+    "jsonPI": null
+  }
+]

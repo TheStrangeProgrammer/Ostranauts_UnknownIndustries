@@ -1,0 +1,47 @@
+[
+  {
+    "strName": "EVAS_MultitoolEVA01",
+    "aCOs": [
+      "EVAS_MultitoolEVA01=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "EVAS_MultitoolEVA01Dmg",
+    "aCOs": [
+      "EVAS_MultitoolEVA01Dmg=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "EVAS_MultitoolEVAEmpty",
+    "aCOs": [
+      "EVAS_MultitoolEVA01=1.0x1"
+    ],
+    "aLoots": [],
+    "bSuppress": true,
+    "strType": "item"
+  },
+  {
+    "strName": "EVAS_MultitoolEVAOffEmpty",
+    "aCOs": [
+      "EVAS_MultitoolEVA01Off=1.0x1"
+    ],
+    "aLoots": [],
+    "bSuppress": true,
+    "strType": "item"
+  },
+  {
+    "strName": "ItmPocketsEVA01",
+    "aCOs": [
+      "PocketClipPoint01=1x1",
+      "PocketEVABatt01=1x1",
+      "PocketEVAO201=1x1",
+      "PocketEVACO201=1x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  }
+]
