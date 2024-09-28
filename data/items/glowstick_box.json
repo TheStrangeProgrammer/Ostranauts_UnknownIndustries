@@ -1,3 +1,122 @@
 [
- 
+    {
+        "strName" : "UI_Itm_GlowStick_Red_Box",
+        "strImg"  : "glowstick_box/UI_Itm_GlowStick_Red_Box",
+        "strImgNorm"  : "glowstick_box/UI_Itm_GlowStick_Box_Normal",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintDefault",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aLights"        : [
+        ],
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      },
+      {
+        "strName" : "UI_Itm_GlowStick_Green_Box",
+        "strImg"  : "glowstick_box/UI_Itm_GlowStick_Green_Box",
+        "strImgNorm"  : "glowstick_box/UI_Itm_GlowStick_Box_Normal",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintDefault",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aLights"        : [
+        ],
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      },
+      {
+        "strName" : "UI_Itm_GlowStick_Blue_Box",
+        "strImg"  : "glowstick_box/UI_Itm_GlowStick_Blue_Box",
+        "strImgNorm"  : "glowstick_box/UI_Itm_GlowStick_Box_Normal",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintDefault",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aLights"        : [
+        ],
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      },
+      {
+        "strName" : "UI_Itm_GlowStick_Purple_Box",
+        "strImg"  : "glowstick_box/UI_Itm_GlowStick_Purple_Box",
+        "strImgNorm"  : "glowstick_box/UI_Itm_GlowStick_Box_Normal",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintDefault",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aLights"        : [
+        ],
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      },
+      {
+        "strName" : "UI_Itm_GlowStick_Red_Box_Empty",
+        "strImg"  : "glowstick_box/UI_Itm_GlowStick_Red_Box_Empty",
+        "strImgNorm"  : "glowstick_box/UI_Itm_GlowStick_Box_Empty_Normal",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintDefault",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aLights"        : [
+        ],
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      }
 ]

@@ -1,0 +1,230 @@
+[
+    {
+        "strName": "UI_Itm_GlowStick_Random_Box_New",
+        "aCOs": [],
+        "aLoots": [
+            "UI_Itm_GlowStick_Red_Box_New=0.25x1|UI_Itm_GlowStick_Green_Box_New=0.25x1|UI_Itm_GlowStick_Blue_Box_New=0.25x1|UI_Itm_GlowStick_Purple_Box_New=0.25x1"
+        ],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Red_Box_New",
+        "aCOs": [
+            "UI_Itm_GlowStick_Red_Box=1.0x1"
+        ],
+        "aLoots": [
+            "UI_Itm_GlowStick_Red_Box_Contents=1.0x1"
+        ],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Red_Box_Contents",
+        "aCOs": [
+            "UI_Itm_GlowStick_Red=1.0x10"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Green_Box_New",
+        "aCOs": [
+            "UI_Itm_GlowStick_Green_Box=1.0x1"
+        ],
+        "aLoots": [
+            "UI_Itm_GlowStick_Green_Box_Contents=1.0x1"
+        ],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Green_Box_Contents",
+        "aCOs": [
+            "UI_Itm_GlowStick_Green=1.0x10"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Blue_Box_New",
+        "aCOs": [
+            "UI_Itm_GlowStick_Blue_Box=1.0x1"
+        ],
+        "aLoots": [
+            "UI_Itm_GlowStick_Blue_Box_Contents=1.0x1"
+        ],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Blue_Box_Contents",
+        "aCOs": [
+            "UI_Itm_GlowStick_Blue=1.0x10"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Purple_Box_New",
+        "aCOs": [
+            "UI_Itm_GlowStick_Purple_Box=1.0x1"
+        ],
+        "aLoots": [
+            "UI_Itm_GlowStick_Purple_Box_Contents=1.0x1"
+        ],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Purple_Box_Contents",
+        "aCOs": [
+            "UI_Itm_GlowStick_Purple=1.0x10"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Random_Box_Used",
+        "aCOs": [],
+        "aLoots": [
+            "UI_Itm_GlowStick_Box_Red_Used=0.25x1|UI_Itm_GlowStick_Green_Box_Used=0.25x1|UI_Itm_GlowStick_Blue_Box_Used=0.25x1|UI_Itm_GlowStick_Purple_Box_Used=0.25x1"
+        ],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Red_Box_Used",
+        "aCOs": [
+            "UI_Itm_GlowStick_Red_Box=1.0x1"
+        ],
+        "aLoots": [
+            "UI_Itm_GlowStick_Red_Box_Random_Contents=1.0x1"
+        ],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Red_Box_Random_Contents",
+        "aCOs": [
+            "UI_Itm_GlowStick_Red=1.0x1-10"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Green_Box_Used",
+        "aCOs": [
+            "UI_Itm_GlowStick_Green_Box=1.0x1"
+        ],
+        "aLoots": [
+            "UI_Itm_GlowStick_Green_Box_Random_Contents=1.0x1"
+        ],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Green_Box_Random_Contents",
+        "aCOs": [
+            "UI_Itm_GlowStick_Green=1.0x1-10"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Blue_Box_Used",
+        "aCOs": [
+            "UI_Itm_GlowStick_Blue_Box=1.0x1"
+        ],
+        "aLoots": [
+            "UI_Itm_GlowStick_Blue_Box_Random_Contents=1.0x1"
+        ],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Blue_Box_Random_Contents",
+        "aCOs": [
+            "UI_Itm_GlowStick_Blue=1.0x1-10"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Purple_Box_Used",
+        "aCOs": [
+            "UI_Itm_GlowStick_Purple_Box=1.0x1"
+        ],
+        "aLoots": [
+            "UI_Itm_GlowStick_Purple_Box_Random_Contents=1.0x1"
+        ],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Purple_Box_Random_Contents",
+        "aCOs": [
+            "UI_Itm_GlowStick_Purple=1.0x1-10"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Red_Box",
+        "aCOs": [
+            "UI_Itm_GlowStick_Red_Box=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Green_Box",
+        "aCOs": [
+            "UI_Itm_GlowStick_Green_Box=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Blue_Box",
+        "aCOs": [
+            "UI_Itm_GlowStick_Blue_Box=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Purple_Box",
+        "aCOs": [
+            "UI_Itm_GlowStick_Purple_Box=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_CT_GlowStick",
+        "aCOs": [
+            "UI_T_Is_GlowStick=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "trigger"
+    },
+    {
+        "strName": "UI_T_Is_GlowStick",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "UI_Is_GlowStick"
+        ],
+        "aForbids": [],
+        "aTriggers": [],
+        "bAND": true
+    }
+]

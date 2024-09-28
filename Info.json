@@ -1,0 +1,10 @@
+{
+  "Id": "UnknownIndustries",
+  "DisplayName": "Unknown Industries",
+  "Author": "TheStranger",
+  "Version": "0.2",
+  "ManagerVersion": "0.22.10",
+  "GameVersion": "0.14.0.13",
+  "AssemblyName": "UnknownIndustries.dll",
+  "EntryMethod": "UnknownIndustries.Main.Load"
+}

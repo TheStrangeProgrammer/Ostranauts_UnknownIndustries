@@ -1,5 +1,13 @@
 [
     {
+        "strName": "UI_Is_Unknown_Industries",
+        "strNameFriendly": "Unknown Industries",
+        "strColor": "Neutral",
+        "strDesc": "[us] is an 'Unknown Industries'-brand item.",
+        "nDisplaySelf": 2,
+        "nDisplayOther": 2
+    },
+    {
         "strName": "UI_Stat_GlowStick_Used",
         "strNameFriendly": "",
         "strColor": "Neutral",
@@ -16,7 +24,7 @@
         "nDisplayOther": 0
     },
     {
-        "strName": "Is_GlowStick_Red",
+        "strName": "UI_Is_GlowStick_Red",
         "strNameFriendly": "",
         "strColor": "Neutral",
         "strDesc": "",
@@ -24,7 +32,7 @@
         "nDisplayOther": 0
     },
     {
-        "strName": "Is_GlowStick_Green",
+        "strName": "UI_Is_GlowStick_Green",
         "strNameFriendly": "",
         "strColor": "Neutral",
         "strDesc": "",
@@ -32,7 +40,7 @@
         "nDisplayOther": 0
     },
     {
-        "strName": "Is_GlowStick_Blue",
+        "strName": "UI_Is_GlowStick_Blue",
         "strNameFriendly": "",
         "strColor": "Neutral",
         "strDesc": "",
@@ -40,11 +48,33 @@
         "nDisplayOther": 0
     },
     {
-        "strName": "Is_GlowStick_Purple",
+        "strName": "UI_Is_GlowStick_Purple",
         "strNameFriendly": "",
         "strColor": "Neutral",
         "strDesc": "",
         "nDisplaySelf": 0,
         "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_Is_GlowStick",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_T_Is_GlowStick_Unlit",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "UI_Is_GlowStick"
+        ],
+        "aForbids": [
+            "UI_Is_GlowStick_Lit"
+        ],
+        "aTriggers": [],
+        "bAND": true
     }
 ]
