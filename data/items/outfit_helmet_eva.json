@@ -1,0 +1,46 @@
+[
+    {
+        "strName" : "OutfitHelmet03",
+        "strImg"  : "CrewHelmet03",
+        "strImgNorm"  : "CrewHelmet03n",
+        "strImgDamaged" : "CrewHelmet03Dmg02",
+        "strDmgColor" : "DamageTintNone",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      },
+      {
+        "strName" : "OutfitHelmet03Dmg",
+        "strImg"  : "CrewHelmet03Dmg02",
+        "strImgNorm"  : "CrewHelmet03n",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintYellowed",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      }
+]

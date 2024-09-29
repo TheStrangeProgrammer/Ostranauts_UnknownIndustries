@@ -35,24 +35,7 @@ namespace UnknownIndustries.Patches
                 //player = CrewSim.coPlayer;
             }
         }
-        [HarmonyPatch(typeof(CrewSim), "DoLoadGame")]
-        static class Patch_CrewSim_DoLoadGame
-        {
-            static void Postfix()
-            {
-                //UnityModManager.Logger.Log("Patched CrewSim DoLoadGame");
-
-                //textComponent = objToSpawn.AddComponent<Text>();
-                //objToSpawn.transform.SetParent(CrewSim.CanvasManager.goCanvasQuit.transform,false);
-                //objToSpawn.transform.position = new Vector3(40, 0, 0);
-                //objToSpawn.transform.localScale = new Vector2(1, 1);
-                //textComponent.color = Color.white;
-                //textComponent.text = "test";
-                //textComponent.raycastTarget = false;
-                //player = CrewSim.coPlayer;
-
-            }
-        }
+        
         [HarmonyPatch(typeof(CrewSim), "LateUpdate")]
         static class Patch_CrewSim_LateUpdate
         {

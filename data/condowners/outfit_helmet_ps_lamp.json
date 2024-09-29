@@ -1,0 +1,50 @@
+[
+    {
+        "strName" : "UI_Helmet_PSWithLamp",
+        "strNameShort" : "Helmet",
+        "strNameFriendly" : "Pressure Suit Helmet",
+        "strDesc" : "The counterpart to the Pathfinder pressure suit. The helmet attaches at the neck with seals rated 'Acceptable' by at least one System standards organisation.",
+        "strItemDef" : "OutfitHelmet02",
+        "strType"    : "Item",
+        "strLoot"    : null,
+        "aInteractions" : [
+          "EquipItem",
+          "DropItem",
+          "PickupItem"
+        ],
+        "aStartingConds" : [
+          "IsPSHelmet=1.0x1.0",
+          "IsRigid=1.0x1.0",
+          "IsSolid=1.0x1.0",
+          "IsClippable=1.0x1",
+          "StatMass=1.0x1.5",
+          "StatBasePrice=1.0x235.0",
+          "StatDamageMax=1.0x7",
+          "StatDismantleProgressMax=1.0x10",
+          "StatArmorBlunt=1.0x1.0",
+          "StatArmorCut=1.0x1.5",
+          "IsCategorySpaceSuits=1.0x1"
+        ],
+        "mapCondTolerance"       : [
+        ],
+        "mapPoints"      : [
+        ],
+        "mapChargeProfiles"  : [
+          "Melee","MeleeAttackDefaultFragile"
+        ],
+        "aUpdateCommands" : [
+          "Destructable,StatDamage,ACTHelmet02Damage,StatDamageMax,1.0"
+        ],
+        "mapGUIPropMaps"  : null,
+        "strPortraitImg"  : "CrewHelmet02",
+        "strAudioEmitter" : "ItmGasHelmetSound",
+        "mapSlotEffects" : [
+          "head_out","HelmetEVA02",
+          "heldL","HeldItmDefaultL",
+          "heldR","HeldItmDefaultR"
+        ],
+        "aTickers" : [ 
+        ],
+        "jsonPI"            : null
+      }
+]

@@ -1,0 +1,4 @@
+[
+    { "strName" : "UI_Outfit_Helmet_EVA", "aCOs" : [ "UI_Outfit_Helmet_EVA=1.0x1" ], "aLoots" : [ ], "strType" : "item" },
+    { "strName" : "UI_Outfit_Helmet_EVA_Dmg", "aCOs" : [ "OutfitHelmet03Dmg=1.0x1" ], "aLoots" : [ ], "strType" : "item" }
+]

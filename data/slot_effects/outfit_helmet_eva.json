@@ -1,0 +1,14 @@
+[
+    {
+        "strName" : "UI_Outfit_Helmet_EVA",
+        "strSlotImage" : "paperdoll/helmetOutfitHelmet03",
+        "strSlotImageUnder" : "paperdoll/helmetOutfitHelmet03Dmg02",
+        "strIASlot" : "SLOTHelmet01",
+        "strIAUnslot" : "UNSLOTHelmet01",
+        "strIASlotParents" : null,
+        "strIAUnslotParents" : null,
+        "mapMeshTextures" : [
+          "EVAHelmet","Crew2EVA:Crew2EVAn"
+        ]
+      }
+]
