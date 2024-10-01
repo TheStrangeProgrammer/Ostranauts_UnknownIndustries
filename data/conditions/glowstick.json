@@ -1,12 +1,5 @@
 [
-    {
-        "strName": "UI_Is_Unknown_Industries",
-        "strNameFriendly": "Unknown Industries",
-        "strColor": "Neutral",
-        "strDesc": "[us] is an 'Unknown Industries'-brand item.",
-        "nDisplaySelf": 2,
-        "nDisplayOther": 2
-    },
+   
     {
         "strName": "UI_Stat_GlowStick_Used",
         "strNameFriendly": "",

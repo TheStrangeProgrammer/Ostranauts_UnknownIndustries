@@ -1,0 +1,59 @@
+[
+    {
+        "strName": "UI_T_Is_Subfloor_Conduit_Installed",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "IsPowerConduit",
+            "IsInstalled"
+        ],
+        "aForbids": [],
+        "aTriggers": [],
+        "bAND": true
+    },
+    {
+        "strName": "UI_T_Is_Subfloor_Conduit_Installed_Damaged",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "IsPowerConduit",
+            "IsInstalled",
+            "IsDamaged"
+        ],
+        "aForbids": [],
+        "aTriggers": [],
+        "bAND": true
+    },
+    {
+        "strName": "UI_T_Is_Subfloor_Conduit_Uninstalled",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "IsPowerConduit"
+        ],
+        "aForbids": [
+            "IsInstalled",
+            "IsDamaged"
+        ],
+        "aTriggers": [],
+        "bAND": true
+    },
+    {
+        "strName": "UI_T_Is_Subfloor_Conduit_Uninstalled_Damaged",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "IsPowerConduit",
+            "IsDamaged"
+        ],
+        "aForbids": [
+            "IsInstalled"
+        ],
+        "aTriggers": [],
+        "bAND": true
+    }
+]

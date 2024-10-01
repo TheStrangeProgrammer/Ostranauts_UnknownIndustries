@@ -1,9 +1,9 @@
 [
     {
-        "strName" : "UI_Outfit_Helmet_EVA",
-        "strImg"  : "CrewHelmet03",
-        "strImgNorm"  : "CrewHelmet03n",
-        "strImgDamaged" : "CrewHelmet03",
+        "strName" : "UI_Itm_Filter_CO2_Helmet_EVA",
+        "strImg"  : "ItmFilter02",
+        "strImgNorm"  : "ItmFilter02n",
+        "strImgDamaged" : "ItmFilter02DmgFull",
         "strDmgColor" : "DamageTintNone",
         "fZScale"  : 0.02,
         "nCols"  : 1,
@@ -19,14 +19,14 @@
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank"
-        ]
+        ]  
       },
       {
-        "strName" : "UI_Outfit_Helmet_EVA_Dmg",
-        "strImg"  : "CrewHelmet03Dmg02",
-        "strImgNorm"  : "CrewHelmet03n",
+        "strName" : "UI_Itm_Filter_CO2_Helmet_EVA_Dmg",
+        "strImg"  : "ItmFilter02DmgFull",
+        "strImgNorm"  : "ItmFilter02n",
         "strImgDamaged" : "",
-        "strDmgColor" : "DamageTintYellowed",
+        "strDmgColor" : "DamageTintNone",
         "fZScale"  : 0.02,
         "nCols"  : 1,
         "aSocketAdds"    : [
@@ -41,6 +41,6 @@
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank"
-        ]
+        ]  
       }
 ]

@@ -1,0 +1,42 @@
+[
+    {
+        "strName" : "UI_MS_Subfloor_Conduit_Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "UI_Itm_Subfloor_Conduit_Damage"
+      },
+      {
+        "strName" : "UI_MS_Subfloor_Conduit_Destroy",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "UI_Itm_Subfloor_Conduit_Components_Shell"
+      },
+      {
+        "strName" : "UI_MS_Subfloor_Conduit_Loose_Damage",
+        "strTitle" : "",
+        "strDesc" : "[us] is damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "UI_Itm_Subfloor_Conduit_Loose_Damage"
+      },
+      {
+        "strName" : "UI_MS_Subfloor_Conduit_Loose_Destroy", 
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "UI_Itm_Subfloor_Conduit_Components_Shell"
+      }
+]

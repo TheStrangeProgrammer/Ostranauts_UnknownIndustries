@@ -1,11 +1,14 @@
 [
     {
-        "strName" : "UI_Outfit_Helmet_EVA",
-        "strImg"  : "CrewHelmet03",
-        "strImgNorm"  : "CrewHelmet03n",
-        "strImgDamaged" : "CrewHelmet03",
+        "strName" : "UI_Itm_Battery_Helmet_EVA",
+        "strImg"  : "ItmBattery03",
+        "strImgNorm"  : "ItmBattery03n",
+        "strImgDamaged" : "ItmBattery03Dmg02",
         "strDmgColor" : "DamageTintNone",
-        "fZScale"  : 0.02,
+        "bLerp" : false,
+        "fDmgComplexity" : 800,
+        "nDmgMode" : 1,
+        "fZScale"  : 0.2,
         "nCols"  : 1,
         "aSocketAdds"    : [
           "TILItemAdds"
@@ -19,15 +22,18 @@
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank"
-        ]
+        ]  
       },
       {
-        "strName" : "UI_Outfit_Helmet_EVA_Dmg",
-        "strImg"  : "CrewHelmet03Dmg02",
-        "strImgNorm"  : "CrewHelmet03n",
+        "strName" : "UI_Itm_Battery_Helmet_EVA_Dmg",
+        "strImg"  : "ItmBattery03Dmg02",
+        "strImgNorm"  : "ItmBattery03n",
         "strImgDamaged" : "",
-        "strDmgColor" : "DamageTintYellowed",
-        "fZScale"  : 0.02,
+        "strDmgColor" : "DamageTintDefault",
+        "bLerp" : false,
+        "fDmgComplexity" : 800,
+        "nDmgMode" : 1,
+        "fZScale"  : 0.2,
         "nCols"  : 1,
         "aSocketAdds"    : [
           "TILItemAdds"
@@ -41,6 +47,6 @@
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank"
-        ]
+        ]  
       }
 ]

@@ -1,0 +1,94 @@
+[
+    {
+        "strName" : "UI_Itm_Subfloor_Conduit",
+        "strImg"  : "subfloor_conduit/UI_Itm_Subfloor_Conduit_Sheet",
+        "strImgNorm"  : "subfloor_conduit/UI_Itm_Subfloor_Conduit_Sheet_Normal",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintRust",
+        "fZScale"  : 0.001,
+        "bHasSpriteSheet" : true,
+        "ctSpriteSheet" : "TIsConduitSprite",
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILPowerConduit"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILPowerConduitOff", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      },
+      {
+        "strName" : "UI_Itm_Subfloor_Conduit_Dmg",
+        "strImg"  : "subfloor_conduit/UI_Itm_Subfloor_Conduit_Sheet",
+        "strImgNorm"  : "subfloor_conduit/UI_Itm_Subfloor_Conduit_Sheet_Normal",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintRust",
+        "fZScale"  : 0.001,
+        "bHasSpriteSheet" : true,
+        "ctSpriteSheet" : "TIsConduitSprite",
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILPowerConduitOff"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILPowerConduitOff", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      },
+      {
+        "strName" : "UI_Itm_Subfloor_Conduit_Loose",
+        "strImg"  : "subfloor_conduit/UI_Itm_Subfloor_Conduit_Loose",
+        "strImgNorm"  : "subfloor_conduit/UI_Itm_Subfloor_Conduit_Loose_Normal",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintRust",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]  
+        },
+      {
+        "strName" : "UI_Itm_Subfloor_Conduit_Dmg_Loose",
+        "strImg"  : "subfloor_conduit/UI_Itm_Subfloor_Conduit_Loose",
+        "strImgNorm"  : "subfloor_conduit/UI_Itm_Subfloor_Conduit_Loose_Normal",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintRust",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]  
+        }
+]

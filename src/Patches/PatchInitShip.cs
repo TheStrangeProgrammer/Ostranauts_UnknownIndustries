@@ -10,7 +10,7 @@ namespace UnknownIndustries.Patches
 {
     internal class PatchInitShip
     {
-        [HarmonyPatch(typeof(Ship), "InitShip")]
+        /*[HarmonyPatch(typeof(Ship), "InitShip")]
         static class Patch_Ship_InitShip
         {
             static void Postfix(Ship __instance)
@@ -29,7 +29,7 @@ namespace UnknownIndustries.Patches
                 }
 
             }
-        }
+        }*/
 
     }
 }

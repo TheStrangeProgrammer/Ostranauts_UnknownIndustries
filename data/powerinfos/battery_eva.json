@@ -1,0 +1,12 @@
+[
+    {
+        "strName": "UI_Itm_Battery_Helmet_EVA",
+        "aInputPts"      : [
+        ],
+        "fAmount": 1.0,
+        "strIntPowerOn": "",
+        "strIntPowerOff": "",
+        "strUsePowerCT": null,
+        "strRechargeCT": null
+      }
+]

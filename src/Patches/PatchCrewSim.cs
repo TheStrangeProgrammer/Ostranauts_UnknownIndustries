@@ -11,7 +11,7 @@ namespace UnknownIndustries.Patches
 {
     internal class PatchCrewSim
     {
-        static GameObject objToSpawn;
+       /* static GameObject objToSpawn;
         static Text textComponent;
         static CondOwner player;
         [HarmonyPatch(typeof(CrewSim), "StartNewGame")]
@@ -49,6 +49,6 @@ namespace UnknownIndustries.Patches
 
 
             }
-        }
+        }*/
     }
 }

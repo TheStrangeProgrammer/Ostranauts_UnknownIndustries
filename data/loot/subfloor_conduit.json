@@ -1,0 +1,103 @@
+[
+    {
+        "strName": "UI_Itm_Subfloor_Conduit",
+        "aCOs": [
+            "UI_Itm_Subfloor_Conduit=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_Subfloor_Conduit_Loose",
+        "aCOs": [
+            "UI_Itm_Subfloor_Conduit_Loose=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+
+    {
+        "strName": "UI_ACT_Subfloor_Conduit_Damage",
+        "aCOs": [
+            "UI_MS_Subfloor_Conduit_Damage=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "interaction"
+    },
+    {
+        "strName": "UI_ACT_Subfloor_Conduit_Destroy",
+        "aCOs": [
+            "UI_MS_Subfloor_Conduit_Destroy=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "interaction"
+    },
+    {
+        "strName": "UI_ACT_Subfloor_Conduit_Loose_Damage",
+        "aCOs": [
+            "UI_MS_Subfloor_Conduit_Loose_Damage=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "interaction"
+    },
+    {
+        "strName": "UI_ACT_Subfloor_Conduit_Loose_Destroy",
+        "aCOs": [
+            "UI_MS_Subfloor_Conduit_Loose_Destroy=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "interaction"
+    },
+    {
+        "strName" : "UI_Itm_Subfloor_Conduit_Damage",
+        "aCOs"    : [
+          "UI_Itm_Subfloor_Conduit_Dmg=1.0x1"
+        ],
+        "aLoots"  : [
+          "UI_Itm_Subfloor_Conduit_Components=1.0x1"
+        ],
+        "strType" : "item"
+      },
+      {
+        "strName" : "UI_Itm_Subfloor_Conduit_Loose_Damage",
+        "aCOs"    : [
+          "UI_Itm_Subfloor_Conduit_Dmg_Loose=1.0x1"
+        ],
+        "aLoots"  : [
+          "UI_Itm_Subfloor_Conduit_Components=1.0x1"
+        ],
+        "strType" : "item"
+      },
+      {
+        "strName" : "UI_Itm_Subfloor_Conduit_Components",
+        "aCOs"    : [
+          "ItmPartsElecSmall01=0.5x1",
+          "ItmScrapAluminum=1.0x1"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "item"
+      },
+      {
+        "strName" : "UI_Itm_Subfloor_Conduit_Components_Shell",
+        "aCOs"    : [
+          "ItmPartsMechSmall01=0.5x1",
+          "ItmScrapTrash=1.0x1"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "item"
+      },
+      {
+        "strName" : "UI_Itm_Subfloor_Conduit_Dismantle",
+        "aCOs"    : [
+          "ItmPartsMechSmall01=1.0x1",
+          "ItmScrapAluminum=1.0x1",
+          "ItmPartsElecSmall01=1.0x1",
+          "ItmScrapTrash=1.0x1"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "item"
+      }
+]

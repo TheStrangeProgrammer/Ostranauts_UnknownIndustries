@@ -1,0 +1,92 @@
+[
+    {
+        "strName": "UI_Itm_Battery_Helmet_EVA",
+        "strNameShort": "EVA Helmet Battery",
+        "strNameFriendly": "Battery: Bingham-12 EVA",
+        "strDesc": "A power pack designed for the Bingham-12 EVA suit's custom requirements. Powers air circulation, vitals monitoring, and other attendant functions.",
+        "strItemDef": "UI_Itm_Battery_Helmet_EVA",
+        "strType": "Item",
+        "aInteractions": [
+          "GUIBattery",
+          "DropItem",
+          "PickupItem"
+        ],
+        "aStartingConds": [
+          "UI_Is_UnknownIndustries=1.0x1.0",
+          "IsBatteryEVA=1.0x1",
+          "IsPowerStorage=1.0x1",
+          "IsSolid=1.0x1.0",
+          "StatPower=1.0x0.82",
+          "StatPowerMax=1.0x0.82",
+          "StatMass=1.0x11.5",
+          "StatBasePrice=1.0x300.0",
+          "StatDamageMax=1.0x2",
+          "StatDismantleProgressMax=1.0x110",
+          "IsTechnology=1.0x1",
+          "IsPowerObservable=1.0x1",
+          "IsCategoryElectronics=1.0x1"
+        ],
+        "mapChargeProfiles": [
+          "Melee",
+          "MeleeAttackDefaultExtraFragile"
+        ],
+        "aUpdateCommands": [
+          "Destructable,StatDamage,ACTBattery03Damage,StatDamageMax,1.0"
+        ],
+        "mapGUIPropMaps": [
+          "Panel A",
+          "MeterBattery"
+        ],
+        "strPortraitImg": "ItmBattery03",
+        "strAudioEmitter": "ItmBatteryGeneralSound",
+        "mapSlotEffects": [
+          "heldL",
+          "HeldItmDefaultL",
+          "heldR",
+          "HeldItmDefaultR"
+        ],
+        "jsonPI": "UI_Itm_Battery_Helmet_EVA"
+      },
+      {
+        "strName": "UI_Outfit_Helmet_EVA_Battery_Dmg",
+        "strNameShort": "EVA Battery",
+        "strNameFriendly": "Battery: Bingham-12 EVA (Damaged)",
+        "strDesc": "A power pack designed for the Bingham-12 EVA suit's custom requirements. Powers air circulation, vitals monitoring, and other attendant functions.",
+        "strItemDef": "UI_Outfit_Helmet_EVA_Battery_Dmg",
+        "strType": "Item",
+        "aInteractions": [
+          "DropItem",
+          "PickupItem"
+        ],
+        "aStartingConds": [
+          "UI_Is_UnknownIndustries=1.0x1.0",
+          "IsBatteryEVA=1.0x1",
+          "IsDamaged=1.0x1",
+          "IsPowerStorage=1.0x1",
+          "IsSolid=1.0x1.0",
+          "StatMass=1.0x11.5",
+          "StatBasePrice=1.0x55.0",
+          "StatDamageMax=1.0x4",
+          "StatDismantleProgressMax=1.0x110",
+          "StatRepairProgressMax=1.0x450",
+          "IsTechnology=1.0x1",
+          "IsPowerObservable=1.0x1",
+          "IsCategoryElectronics=1.0x1"
+        ],
+        "aUpdateCommands": [
+          "Destructable,StatDamage,ACTBattery03Destroy,StatDamageMax,1.0"
+        ],
+        "mapGUIPropMaps": [],
+        "mapChargeProfiles": [
+          "Melee",
+          "MeleeAttackDefaultExtraFragile"
+        ],
+        "strPortraitImg": "ItmBattery03Dmg02",
+        "mapSlotEffects": [
+          "heldL",
+          "HeldItmDefaultL",
+          "heldR",
+          "HeldItmDefaultR"
+        ]
+      }
+]
