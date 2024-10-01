@@ -9,7 +9,6 @@
         "aInteractions": [],
         "aStartingConds": [
             "UI_Is_Unknown_Industries=1.0x1",
-            "IsHiddenInv=1.0x2",
             "IsInstalled=1.0x1",
             "IsPowerConduit=1.0x1",
             "IsPowerRecalc=1.0x1",
@@ -37,7 +36,6 @@
         "aInteractions": [],
         "aStartingConds": [
             "UI_Is_Unknown_Industries=1.0x1",
-            "IsHiddenInv=1.0x2",
             "IsInstalled=1.0x1",
             "IsDamaged=1.0x1",
             "IsPowerConduit=1.0x1",
@@ -74,7 +72,6 @@
         ],
         "aStartingConds": [
             "UI_Is_Unknown_Industries=1.0x1",
-            "IsHiddenInv=1.0x1",
             "IsPowerConduit=1.0x1",
             "IsSolid=1.0x1.0",
             "StatBasePrice=1.0x80",
@@ -118,7 +115,7 @@
         "aStartingConds": [
             "UI_Is_Unknown_Industries=1.0x1",
             "IsDamaged=1.0x1",
-            "IsHiddenInv=1.0x1",
+
             "IsPowerConduit=1.0x1",
             "IsSolid=1.0x1.0",
             "StatBasePrice=1.0x8",

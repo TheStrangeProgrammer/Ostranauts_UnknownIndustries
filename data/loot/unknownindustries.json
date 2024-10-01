@@ -3,7 +3,8 @@
         "strName": "UI_Itm_Kiosk_Inv_UnknownIndustries",
         "aCOs": [],
         "aLoots": [
-            "UI_Itm_GlowStick_Random_Box_New=1.0x4-10"
+            "UI_Itm_GlowStick_Random_Box_New=1.0x4-10",
+            "UI_Itm_Subfloor_Conduit_Loose=1.0x15-35"
         ],
         "strType": "item"
     }

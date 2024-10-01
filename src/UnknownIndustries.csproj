@@ -36,9 +36,11 @@
   <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>..\..\..\..\..\Games\Ostranauts\Ostranauts_Data\Managed\UnityModManager\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\Games\Ostranauts\Ostranauts_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,15 +50,19 @@
     <Reference Include="System.Xml" />
     <Reference Include="TextMeshPro-5.6-Runtime">
       <HintPath>..\..\..\..\..\Games\Ostranauts\Ostranauts_Data\Managed\TextMeshPro-5.6-Runtime.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\Games\Ostranauts\Ostranauts_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>..\..\..\..\..\Games\Ostranauts\Ostranauts_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityModManager">
       <HintPath>..\..\..\..\..\Games\Ostranauts\Ostranauts_Data\Managed\UnityModManager\UnityModManager.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
