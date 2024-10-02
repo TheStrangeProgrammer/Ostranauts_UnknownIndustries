@@ -12,6 +12,7 @@ namespace UnknownIndustries.Patches
 {
     public static class PatchDataHandler
     {
+
         public static Dictionary<string, ShipOverride> dictOverrideShips = new Dictionary<string, ShipOverride>();
         public static Dictionary<string, LootOverride> dictOverrideLoot = new Dictionary<string, LootOverride>();
         [HarmonyPatch(typeof(DataHandler), "LoadMod")]
@@ -19,62 +20,68 @@ namespace UnknownIndustries.Patches
         {
             static void Postfix(object[] __args)
             {
+                
                 //UnityModManager.Logger.Log("Patching custom_ships_data");
                 JsonLoader.LoadJson((string)__args[0] + "data/custom_ships_data/", (string[])__args[1], (JsonModInfo)__args[2], dictOverrideShips);
 
-                foreach (KeyValuePair<string, ShipOverride> pair in dictOverrideShips)
-                {
-                    //UnityModManager.Logger.Log("Patching " + pair.Value.strTargetLoot);
-                    foreach (JsonItem item in pair.Value.aItems) {
-                        item.strID = Guid.NewGuid().ToString();
+                    foreach (KeyValuePair<string, ShipOverride> pair in dictOverrideShips)
+                    {
+                        //UnityModManager.Logger.Log("Patching " + pair.Value.strTargetLoot);
+                        foreach (JsonItem item in pair.Value.aItems)
+                        {
+                            item.strID = Guid.NewGuid().ToString();
+                        }
+
+                        List<JsonItem> aItems = new List<JsonItem>();
+                        aItems.AddRange(DataHandler.dictShips[pair.Value.strTargetShip].aItems);
+                        aItems.AddRange(pair.Value.aItems);
+
+                        //UnityModManager.Logger.Log("Patched "+ pair.Value.strTargetLoot);
+                        //foreach (string loot in aLoots)
+                        //{
+                        //    UnityModManager.Logger.Log(loot);
+                        //}
+
+                        DataHandler.dictShips[pair.Value.strTargetShip].aItems = aItems.ToArray();
+
+                        //UnityModManager.Logger.Log("Output " + pair.Value.strTargetLoot);
+                        //foreach (string loot in DataHandler.dictLoot[pair.Value.strTargetLoot].aLoots) {
+                        //    UnityModManager.Logger.Log(loot);
+                        //}
                     }
+                    //UnityModManager.Logger.Log("Patching custom_loot_data");
+                    JsonLoader.LoadJson((string)__args[0] + "data/custom_loot_data/", (string[])__args[1], (JsonModInfo)__args[2], dictOverrideLoot);
 
-                    List<JsonItem> aItems = new List<JsonItem>();
-                    aItems.AddRange(DataHandler.dictShips[pair.Value.strTargetShip].aItems);
-                    aItems.AddRange(pair.Value.aItems);
+                    foreach (KeyValuePair<string, LootOverride> pair in dictOverrideLoot)
+                    {
+                        //UnityModManager.Logger.Log("Patching " + pair.Value.strTargetLoot);
 
-                    //UnityModManager.Logger.Log("Patched "+ pair.Value.strTargetLoot);
-                    //foreach (string loot in aLoots)
-                    //{
-                    //    UnityModManager.Logger.Log(loot);
-                    //}
+                        List<string> aLoots = new List<string>();
+                        aLoots.AddRange(DataHandler.dictLoot[pair.Value.strTargetLoot].aLoots);
+                        aLoots.AddRange(pair.Value.aLoots);
 
-                    DataHandler.dictShips[pair.Value.strTargetShip].aItems = aItems.ToArray();
+                        List<string> aCOs = new List<string>();
+                        aCOs.AddRange(DataHandler.dictLoot[pair.Value.strTargetLoot].aCOs);
+                        aLoots.AddRange(pair.Value.aCOs);
 
-                    //UnityModManager.Logger.Log("Output " + pair.Value.strTargetLoot);
-                    //foreach (string loot in DataHandler.dictLoot[pair.Value.strTargetLoot].aLoots) {
-                    //    UnityModManager.Logger.Log(loot);
-                    //}
-                }
-                //UnityModManager.Logger.Log("Patching custom_loot_data");
-                JsonLoader.LoadJson((string)__args[0] + "data/custom_loot_data/", (string[])__args[1], (JsonModInfo)__args[2], dictOverrideLoot);
+                        //UnityModManager.Logger.Log("Patched "+ pair.Value.strTargetLoot);
+                        //foreach (string loot in aLoots)
+                        //{
+                        //    UnityModManager.Logger.Log(loot);
+                        //}
 
-                foreach (KeyValuePair<string, LootOverride> pair in dictOverrideLoot)
-                {
-                    //UnityModManager.Logger.Log("Patching " + pair.Value.strTargetLoot);
+                        DataHandler.dictLoot[pair.Value.strTargetLoot].aLoots = aLoots.ToArray();
+                        DataHandler.dictLoot[pair.Value.strTargetLoot].aCOs = aCOs.ToArray();
 
-                    List<string> aLoots = new List<string>();
-                    aLoots.AddRange(DataHandler.dictLoot[pair.Value.strTargetLoot].aLoots);
-                    aLoots.AddRange(pair.Value.aLoots);
+                        //UnityModManager.Logger.Log("Output " + pair.Value.strTargetLoot);
+                        //foreach (string loot in DataHandler.dictLoot[pair.Value.strTargetLoot].aLoots) {
+                        //    UnityModManager.Logger.Log(loot);
+                        //}
+                    }
+                dictOverrideShips.Clear();
+                dictOverrideLoot.Clear();
 
-                    List<string> aCOs = new List<string>();
-                    aCOs.AddRange(DataHandler.dictLoot[pair.Value.strTargetLoot].aCOs);
-                    aLoots.AddRange(pair.Value.aCOs);
 
-                    //UnityModManager.Logger.Log("Patched "+ pair.Value.strTargetLoot);
-                    //foreach (string loot in aLoots)
-                    //{
-                    //    UnityModManager.Logger.Log(loot);
-                    //}
-
-                    DataHandler.dictLoot[pair.Value.strTargetLoot].aLoots = aLoots.ToArray();
-                    DataHandler.dictLoot[pair.Value.strTargetLoot].aCOs = aCOs.ToArray();
-
-                    //UnityModManager.Logger.Log("Output " + pair.Value.strTargetLoot);
-                    //foreach (string loot in DataHandler.dictLoot[pair.Value.strTargetLoot].aLoots) {
-                    //    UnityModManager.Logger.Log(loot);
-                    //}
-                }
 
             }
         }

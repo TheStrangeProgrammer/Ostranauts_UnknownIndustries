@@ -1,6 +1,6 @@
 [
     {
-        "strName": "UI_T_Is_Subfloor_Conduit_Installed",
+        "strName": "UI_T_Is_Conduit_Subfloor_Installed",
         "strCondName": "",
         "fChance": 1.0,
         "fCount": 1.0,
@@ -13,7 +13,7 @@
         "bAND": true
     },
     {
-        "strName": "UI_T_Is_Subfloor_Conduit_Installed_Damaged",
+        "strName": "UI_T_Is_Conduit_Subfloor_Installed_Damaged",
         "strCondName": "",
         "fChance": 1.0,
         "fCount": 1.0,
@@ -27,7 +27,7 @@
         "bAND": true
     },
     {
-        "strName": "UI_T_Is_Subfloor_Conduit_Uninstalled",
+        "strName": "UI_T_Is_Conduit_Subfloor_Uninstalled",
         "strCondName": "",
         "fChance": 1.0,
         "fCount": 1.0,
@@ -42,7 +42,7 @@
         "bAND": true
     },
     {
-        "strName": "UI_T_Is_Subfloor_Conduit_Uninstalled_Damaged",
+        "strName": "UI_T_Is_Conduit_Subfloor_Uninstalled_Damaged",
         "strCondName": "",
         "fChance": 1.0,
         "fCount": 1.0,

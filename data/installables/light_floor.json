@@ -1,0 +1,174 @@
+[
+    {
+        "strName": "UI_LitWall1x0Install",
+        "strActionCO": "ItmLitWall1x0OffLoose",
+        "strActionGroup": "Work",
+        "strTooltip": "Installs item.",
+        "strInteractionTemplate": "ACTInstallTEMP",
+        "CTThem": "TIsLitWall1x0Uninstalled",
+        "aInputs": [
+            "TIsLitWall1x0Uninstalled=1.0x1"
+        ],
+        "fTargetPointRange": 2.0,
+        "fDuration": 0.001,
+        "bSparks": true,
+        "aToolCTsUse": [
+            "TIsToolMortorq"
+        ],
+        "aLootCOs": [
+            "ItmLitWall1x0Off"
+        ],
+        "strStartInstall": "ItmLitWall1x0Off",
+        "strBuildType": "POWR",
+        "strJobType": "install",
+        "strAllowLootCTsUs": "CTWorkProgressPOWR",
+        "strAllowLootCTsThem": "CONDInstallProgressx5",
+        "strProgressStat": "StatInstallProgress",
+        "strCTThemMultCondTools": "IsToolMortorq",
+        "strCTThemMultCondUs": "StatInstallRatePOWR"
+    },
+    {
+        "strName": "UI_LitWall1x0OffUninstall",
+        "strActionCO": "ItmLitWall1x0Off",
+        "strActionGroup": "Work",
+        "strTooltip": "Uninstalls item.",
+        "strInteractionTemplate": "ACTUninstallTEMP",
+        "CTThem": "TIsLitWall1x0Installed",
+        "aInputs": [],
+        "fTargetPointRange": 2.0,
+        "fDuration": 0.001,
+        "bSparks": true,
+        "aToolCTsUse": [
+            "TIsToolMortorq"
+        ],
+        "aLootCOs": [
+            "ItmLitWall1x0OffLoose"
+        ],
+        "strJobType": "uninstall",
+        "strAllowLootCTsUs": "CTWorkProgressPOWR",
+        "strAllowLootCTsThem": "CONDUninstallProgressx5",
+        "strProgressStat": "StatUninstallProgress",
+        "strCTThemMultCondTools": "IsToolMortorq",
+        "strCTThemMultCondUs": "StatInstallRatePOWR"
+    },
+    {
+        "strName": "UI_LitWall1x0Uninstall",
+        "strActionCO": "ItmLitWall1x0",
+        "strActionGroup": "Work",
+        "strTooltip": "Uninstalls item.",
+        "strInteractionTemplate": "ACTUninstallTEMP",
+        "CTThem": "TIsLitWall1x0Installed",
+        "aInputs": [],
+        "fTargetPointRange": 2.0,
+        "fDuration": 0.001,
+        "bSparks": true,
+        "aToolCTsUse": [
+            "TIsToolMortorq"
+        ],
+        "aLootCOs": [
+            "ItmLitWall1x0OffLoose"
+        ],
+        "strJobType": "uninstall",
+        "strAllowLootCTsUs": "CTWorkProgressPOWR",
+        "strAllowLootCTsThem": "CONDUninstallProgressx5",
+        "strProgressStat": "StatUninstallProgress",
+        "strCTThemMultCondTools": "IsToolMortorq",
+        "strCTThemMultCondUs": "StatInstallRatePOWR"
+    },
+    {
+        "strName": "UI_LitWall1x0OffDismantle",
+        "strActionCO": "ItmLitWall1x0Off",
+        "strActionGroup": "Work",
+        "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+        "strInteractionTemplate": "ACTDismantleTEMP",
+        "CTThem": "TCanBeDismantled",
+        "aInputs": [],
+        "fTargetPointRange": 2.0,
+        "fDuration": 0.001,
+        "bSparks": true,
+        "aToolCTsUse": [
+            "TIsToolMortorq",
+            "TIsToolSoldering"
+        ],
+        "strLootOut": "ItmWallLightDismantle",
+        "strJobType": "dismantle",
+        "strAllowLootCTsUs": "CTWorkProgressPOWR",
+        "strAllowLootCTsThem": "CONDDismantleProgress",
+        "strProgressStat": "StatDismantleProgress",
+        "strCTThemMultCondTools": "IsToolMortorq",
+        "strCTThemMultCondUs": "StatInstallRatePOWR"
+    },
+    {
+        "strName": "UI_LitWall1x0OffLooseDismantle",
+        "strActionCO": "ItmLitWall1x0OffLoose",
+        "strActionGroup": "Work",
+        "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+        "strInteractionTemplate": "ACTDismantleTEMP",
+        "CTThem": "TCanBeDismantled",
+        "aInputs": [],
+        "fTargetPointRange": 2.0,
+        "fDuration": 0.001,
+        "bSparks": true,
+        "aToolCTsUse": [
+            "TIsToolMortorq",
+            "TIsToolSoldering"
+        ],
+        "strLootOut": "ItmWallLightDismantle",
+        "strJobType": "dismantle",
+        "strAllowLootCTsUs": "CTWorkProgressPOWR",
+        "strAllowLootCTsThem": "CONDDismantleProgress",
+        "strProgressStat": "StatDismantleProgress",
+        "strCTThemMultCondTools": "IsToolMortorq",
+        "strCTThemMultCondUs": "StatInstallRatePOWR"
+    },
+    {
+        "strName": "UI_LitWall1x0OffUndamage",
+        "strActionCO": "ItmLitWall1x0Off",
+        "strActionGroup": "Work",
+        "strTooltip": "Reduces item's wear and tear to prevent damage.",
+        "strInteractionTemplate": "ACTUndamageTEMP",
+        "CTThem": "TIsUndamageableNotContained",
+        "aInputs": [],
+        "fTargetPointRange": 2.0,
+        "fDuration": 0.001,
+        "bSparks": true,
+        "aToolCTsUse": [
+            "TIsToolMortorq",
+            "TIsToolSoldering"
+        ],
+        "aLootCOs": [
+            "ItmLitWall1x0Off"
+        ],
+        "strJobType": "repair",
+        "strAllowLootCTsUs": "CTWorkProgressPOWR",
+        "strAllowLootCTsThem": "CONDUndamageProgress",
+        "strProgressStat": "StatDamage",
+        "strCTThemMultCondTools": "IsToolMortorq",
+        "strCTThemMultCondUs": "StatInstallRatePOWR"
+    },
+    {
+        "strName": "UI_LitWall1x0Undamage",
+        "strActionCO": "ItmLitWall1x0",
+        "strActionGroup": "Work",
+        "strTooltip": "Reduces item's wear and tear to prevent damage.",
+        "strInteractionTemplate": "ACTUndamageTEMP",
+        "CTThem": "TIsUndamageableNotContained",
+        "aInputs": [],
+        "fTargetPointRange": 2.0,
+        "fDuration": 0.001,
+        "bSparks": true,
+        "aToolCTsUse": [
+            "TIsToolMortorq",
+            "TIsToolSoldering"
+        ],
+        "aLootCOs": [
+            "ItmLitWall1x0"
+        ],
+        "strJobType": "repair",
+        "strAllowLootCTsUs": "CTWorkProgressPOWR",
+        "strAllowLootCTsThem": "CONDUndamageProgress",
+        "strProgressStat": "StatDamage",
+        "strCTThemMultCondTools": "IsToolMortorq",
+        "strCTThemMultCondUs": "StatInstallRatePOWR"
+    }
+]

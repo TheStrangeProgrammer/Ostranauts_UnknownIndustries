@@ -4,7 +4,7 @@
         "aCOs": [],
         "aLoots": [
             "UI_Itm_GlowStick_Random_Box_New=1.0x4-10",
-            "UI_Itm_Subfloor_Conduit_Loose=1.0x15-35"
+            "UI_Itm_Conduit_Subfloor_Loose=1.0x15-35"
         ],
         "strType": "item"
     }

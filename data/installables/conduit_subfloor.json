@@ -1,13 +1,13 @@
 [
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Dmg_Install",
-        "strActionCO": "UI_Itm_Subfloor_Conduit_Dmg_Loose",
+        "strName": "UI_Itm_Conduit_Subfloor_Dmg_Install",
+        "strActionCO": "UI_Itm_Conduit_Subfloor_Dmg_Loose",
         "strActionGroup": "Work",
         "strTooltip": "Installs item.",
         "strInteractionTemplate": "ACTInstallTEMP",
-        "CTThem": "UI_T_Is_Subfloor_Conduit_Uninstalled_Damaged",
+        "CTThem": "UI_T_Is_Conduit_Subfloor_Uninstalled_Damaged",
         "aInputs": [
-            "UI_T_Is_Subfloor_Conduit_Uninstalled_Damaged=1.0x1"
+            "UI_T_Is_Conduit_Subfloor_Uninstalled_Damaged=1.0x1"
         ],
         "fTargetPointRange": 2.5,
         "fDuration": 0.001,
@@ -16,9 +16,9 @@
             "TIsToolMortorq"
         ],
         "aLootCOs": [
-            "UI_Itm_Subfloor_Conduit_Dmg"
+            "UI_Itm_Conduit_Subfloor_Dmg"
         ],
-        "strStartInstall": "UI_Itm_Subfloor_Conduit_Dmg",
+        "strStartInstall": "UI_Itm_Conduit_Subfloor_Dmg",
         "strBuildType": "",
         "strJobType": "install",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -28,12 +28,12 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Dmg_Uninstall",
-        "strActionCO": "UI_Itm_Subfloor_Conduit_Dmg",
+        "strName": "UI_Itm_Conduit_Subfloor_Dmg_Uninstall",
+        "strActionCO": "UI_Itm_Conduit_Subfloor_Dmg",
         "strActionGroup": "Work",
         "strTooltip": "Uninstalls item.",
         "strInteractionTemplate": "ACTUninstallTEMP",
-        "CTThem": "UI_T_Is_Subfloor_Conduit_Installed_Damaged",
+        "CTThem": "UI_T_Is_Conduit_Subfloor_Installed_Damaged",
         "aInputs": [],
         "fTargetPointRange": 2.0,
         "fDuration": 0.001,
@@ -42,7 +42,7 @@
             "TIsToolMortorq"
         ],
         "aLootCOs": [
-            "UI_Itm_Subfloor_Conduit_Dmg_Loose"
+            "UI_Itm_Conduit_Subfloor_Dmg_Loose"
         ],
         "strJobType": "uninstall",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -52,23 +52,23 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Install",
-        "strActionCO": "UI_Itm_Subfloor_Conduit_Loose",
+        "strName": "UI_Itm_Conduit_Subfloor_Install",
+        "strActionCO": "UI_Itm_Conduit_Subfloor_Loose",
         "strActionGroup": "Work",
         "strTooltip": "Installs item.",
         "strInteractionTemplate": "ACTInstallNoSparksTEMP",
-        "CTThem": "UI_T_Is_Subfloor_Conduit_Uninstalled",
+        "CTThem": "UI_T_Is_Conduit_Subfloor_Uninstalled",
         "aInputs": [
-            "UI_T_Is_Subfloor_Conduit_Uninstalled=1.0x1"
+            "UI_T_Is_Conduit_Subfloor_Uninstalled=1.0x1"
         ],
         "fTargetPointRange": 2.5,
         "fDuration": 0.001,
         "bSparks": true,
         "aToolCTsUse": [],
         "aLootCOs": [
-            "UI_Itm_Subfloor_Conduit"
+            "UI_Itm_Conduit_Subfloor"
         ],
-        "strStartInstall": "UI_Itm_Subfloor_Conduit",
+        "strStartInstall": "UI_Itm_Conduit_Subfloor",
         "strBuildType": "POWR",
         "strJobType": "install",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -77,19 +77,19 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Uninstall",
-        "strActionCO": "UI_Itm_Subfloor_Conduit",
+        "strName": "UI_Itm_Conduit_Subfloor_Uninstall",
+        "strActionCO": "UI_Itm_Conduit_Subfloor",
         "strActionGroup": "Work",
         "strTooltip": "Uninstalls item.",
         "strInteractionTemplate": "ACTUninstallNoSparksTEMP",
-        "CTThem": "UI_T_Is_Subfloor_Conduit_Installed",
+        "CTThem": "UI_T_Is_Conduit_Subfloor_Installed",
         "aInputs": [],
         "fTargetPointRange": 2.0,
         "fDuration": 0.001,
         "bSparks": true,
         "aToolCTsUse": [],
         "aLootCOs": [
-            "UI_Itm_Subfloor_Conduit_Loose"
+            "UI_Itm_Conduit_Subfloor_Loose"
         ],
         "strJobType": "uninstall",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -98,8 +98,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Dismantle",
-        "strActionCO": "UI_Itm_Subfloor_Conduit",
+        "strName": "UI_Itm_Conduit_Subfloor_Dismantle",
+        "strActionCO": "UI_Itm_Conduit_Subfloor",
         "strActionGroup": "Work",
         "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
         "strInteractionTemplate": "ACTDismantleNoSparksTEMP",
@@ -120,8 +120,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Loose_Dismantle",
-        "strActionCO": "UI_Itm_Subfloor_Conduit_Loose",
+        "strName": "UI_Itm_Conduit_Subfloor_Loose_Dismantle",
+        "strActionCO": "UI_Itm_Conduit_Subfloor_Loose",
         "strActionGroup": "Work",
         "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
         "strInteractionTemplate": "ACTDismantleNoSparksTEMP",
@@ -142,8 +142,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Dmg_Repair",
-        "strActionCO": "UI_Itm_Subfloor_Conduit_Dmg",
+        "strName": "UI_Itm_Conduit_Subfloor_Dmg_Repair",
+        "strActionCO": "UI_Itm_Conduit_Subfloor_Dmg",
         "strActionGroup": "Work",
         "strTooltip": "Repairs item to a functional state.",
         "strInteractionTemplate": "ACTRepairNoSparksTEMP",
@@ -159,7 +159,7 @@
             "TIsToolMortorq"
         ],
         "aLootCOs": [
-            "UI_Itm_Subfloor_Conduit"
+            "UI_Itm_Conduit_Subfloor"
         ],
         "strJobType": "repair",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -169,8 +169,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Dmg_Loose_Repair",
-        "strActionCO": "UI_Itm_Subfloor_Conduit_Dmg_Loose",
+        "strName": "UI_Itm_Conduit_Subfloor_Dmg_Loose_Repair",
+        "strActionCO": "UI_Itm_Conduit_Subfloor_Dmg_Loose",
         "strActionGroup": "Work",
         "strTooltip": "Repairs item to a functional state.",
         "strInteractionTemplate": "ACTRepairNoSparksTEMP",
@@ -186,7 +186,7 @@
             "TIsToolMortorq"
         ],
         "aLootCOs": [
-            "UI_Itm_Subfloor_Conduit_Loose"
+            "UI_Itm_Conduit_Subfloor_Loose"
         ],
         "strJobType": "repair",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -196,8 +196,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Undamage",
-        "strActionCO": "UI_Itm_Subfloor_Conduit",
+        "strName": "UI_Itm_Conduit_Subfloor_Undamage",
+        "strActionCO": "UI_Itm_Conduit_Subfloor",
         "strActionGroup": "Work",
         "strTooltip": "Reduces item's wear and tear to prevent damage.",
         "strInteractionTemplate": "ACTUndamageNoSparksTEMP",
@@ -211,7 +211,7 @@
             "TIsToolSoldering"
         ],
         "aLootCOs": [
-            "UI_Itm_Subfloor_Conduit"
+            "UI_Itm_Conduit_Subfloor"
         ],
         "strJobType": "repair",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -220,8 +220,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Loose_Undamage",
-        "strActionCO": "UI_Itm_Subfloor_Conduit_Loose",
+        "strName": "UI_Itm_Conduit_Subfloor_Loose_Undamage",
+        "strActionCO": "UI_Itm_Conduit_Subfloor_Loose",
         "strActionGroup": "Work",
         "strTooltip": "Reduces item's wear and tear to prevent damage.",
         "strInteractionTemplate": "ACTUndamageNoSparksTEMP",
@@ -235,7 +235,7 @@
             "TIsToolSoldering"
         ],
         "aLootCOs": [
-            "UI_Itm_Subfloor_Conduit_Loose"
+            "UI_Itm_Conduit_Subfloor_Loose"
         ],
         "strJobType": "repair",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",

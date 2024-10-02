@@ -1,0 +1,55 @@
+[
+    {
+        "strName" : "UI_MSLitWallDmg",
+        "strTitle" : "",
+        "strDesc" : "[us] is destroyed.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmWallLightComponents"
+      },
+      {"strName" : "UI_MSLightSwitchOffAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] switches off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsLitWall1x0On",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmLitWall1x0Off"
+      },
+      {
+        "strName" : "UI_MSLightSwitchOnAllow",
+        "strTitle" : "",
+        "strDesc" : "[us] switches on.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "TIsLitWall1x0Off",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "ItmLitWall1x0"
+      }
+]

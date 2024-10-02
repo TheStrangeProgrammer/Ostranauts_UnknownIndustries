@@ -1,0 +1,28 @@
+[
+    {
+        "strName": "UI_ACT_Light_Floor_Dmg",
+        "aCOs": [
+            "UI_MS_Light_Floor_Dmg=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "interaction"
+    },
+    {
+        "strName" : "UI_Itm_Light_Floor_Blue",
+        "aCOs"    : [
+          "UI_Itm_Light_Floor_Blue=1.0x1"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "item"
+      },
+      {
+        "strName" : "UI_Itm_Light_Floor_Blue_Off",
+        "aCOs"    : [
+          "UI_Itm_Light_Floor_Off=1.0x1"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "item"
+      }
+]

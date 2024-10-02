@@ -1,0 +1,72 @@
+[
+    {
+        "strName" : "UI_ItmLitWall1x0",
+        "strImg"  : "lights/ItmLitWall_Off",
+        "strImgNorm"  : "lights/ItmLitWall_Norm",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintSludge",
+        "fZScale"  : 0.5,
+        "nCols"  : 1,
+        "aLights"        : [
+          "Wall1x0WhiteCool"
+        ],
+        "aSocketAdds"    : [
+          "TILLight"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILLight", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "TILWall", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]
+      },
+      {
+        "strName" : "UI_ItmLitWall1x0Off",
+        "strImg"  : "lights/ItmLitWall_Off",
+        "strImgNorm"  : "lights/ItmLitWall_Norm",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintSludge",
+        "fZScale"  : 0.5,
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILLight"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILLight", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "TILWall", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]  
+      },
+      {
+        "strName" : "UI_ItmLitWall1x0OffLoose",
+        "strImg"  : "ItmLitWall1x0Loose",
+        "strImgNorm"  : "ItmLitWall1x0Loosen",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintSludge",
+        "fZScale"  : 0.5,
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]  
+      }
+    
+]

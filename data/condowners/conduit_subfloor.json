@@ -1,13 +1,14 @@
 [
     {
-        "strName": "UI_Itm_Subfloor_Conduit",
+        "strName": "UI_Itm_Conduit_Subfloor",
         "strNameShort": "Conduit",
         "strNameFriendly": "Conduit",
-        "strItemDef": "UI_Itm_Subfloor_Conduit",
+        "strItemDef": "UI_Itm_Conduit_Subfloor",
         "strDesc": "Fixed cabling raceway capable of transmitting power between shipboard components. Any engineer worth their salt knows the importance of a good cable run, especially when salvaging damaged starships.",
         "strType": "Item",
         "aInteractions": [],
         "aStartingConds": [
+            "IsHiddenInv=1.0x1",
             "UI_Is_Unknown_Industries=1.0x1",
             "IsInstalled=1.0x1",
             "IsPowerConduit=1.0x1",
@@ -22,19 +23,20 @@
             "IsCategoryElectronics=1.0x1"
         ],
         "aUpdateCommands": [
-            "Destructable,StatDamage,UI_ACT_Subfloor_Conduit_Damage,StatDamageMax,1.0"
+            "Destructable,StatDamage,UI_ACT_Conduit_Subfloor_Damage,StatDamageMax,1.0"
         ],
-        "strPortraitImg": "subfloor_conduit/UI_Itm_Subfloor_Conduit"
+        "strPortraitImg": "conduit_subfloor/UI_Itm_Conduit_Subfloor"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Dmg",
+        "strName": "UI_Itm_Conduit_Subfloor_Dmg",
         "strNameShort": "Conduit",
         "strNameFriendly": "Conduit (Damaged)",
-        "strItemDef": "UI_Itm_Subfloor_Conduit_Dmg",
+        "strItemDef": "UI_Itm_Conduit_Subfloor_Dmg",
         "strDesc": "Fixed cabling raceway capable of transmitting power between shipboard components. Any engineer worth their salt knows the importance of a good cable run, especially when salvaging damaged starships.",
         "strType": "Item",
         "aInteractions": [],
         "aStartingConds": [
+            "IsHiddenInv=1.0x1",
             "UI_Is_Unknown_Industries=1.0x1",
             "IsInstalled=1.0x1",
             "IsDamaged=1.0x1",
@@ -51,17 +53,17 @@
             "IsCategoryElectronics=1.0x1"
         ],
         "aUpdateCommands": [
-            "Destructable,StatDamage,UI_ACT_Subfloor_Conduit_Destroy,StatDamageMax,1.0"
+            "Destructable,StatDamage,UI_ACT_Conduit_Subfloor_Destroy,StatDamageMax,1.0"
         ],
-        "strPortraitImg": "subfloor_conduit/UI_Itm_Subfloor_Conduit",
+        "strPortraitImg": "conduit_subfloor/UI_Itm_Conduit_Subfloor",
         "strAudioEmitter": "ItmConduit01DmgSound"
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Loose",
+        "strName": "UI_Itm_Conduit_Subfloor_Loose",
         "strNameShort": "Conduit",
         "strNameFriendly": "Conduit (Loose)",
         "strDesc": "Fixed cabling raceway capable of transmitting power between shipboard components. Any engineer worth their salt knows the importance of a good cable run, especially when salvaging damaged starships.",
-        "strItemDef": "UI_Itm_Subfloor_Conduit_Loose",
+        "strItemDef": "UI_Itm_Conduit_Subfloor_Loose",
         "strType": "Item",
         "nStackLimit": 5,
         "aInteractions": [
@@ -87,9 +89,9 @@
             "MeleeAttackDefaultFragile"
         ],
         "aUpdateCommands": [
-            "Destructable,StatDamage,UI_ACT_Subfloor_Conduit_Loose_Damage,StatDamageMax,1.0"
+            "Destructable,StatDamage,UI_ACT_Conduit_Subfloor_Loose_Damage,StatDamageMax,1.0"
         ],
-        "strPortraitImg": "subfloor_conduit/UI_Itm_Subfloor_Conduit_Loose",
+        "strPortraitImg": "conduit_subfloor/UI_Itm_Conduit_Subfloor_Loose",
         "strAudioEmitter": "ItmMediumPartsGeneralSound03",
         "mapSlotEffects": [
             "heldL",
@@ -99,11 +101,11 @@
         ]
     },
     {
-        "strName": "UI_Itm_Subfloor_Conduit_Dmg_Loose",
+        "strName": "UI_Itm_Conduit_Subfloor_Dmg_Loose",
         "strNameShort": "Conduit",
         "strNameFriendly": "Conduit (Loose, Damaged)",
         "strDesc": "Fixed cabling raceway capable of transmitting power between shipboard components. Any engineer worth their salt knows the importance of a good cable run, especially when salvaging damaged starships.",
-        "strItemDef": "UI_Itm_Subfloor_Conduit_Dmg_Loose",
+        "strItemDef": "UI_Itm_Conduit_Subfloor_Dmg_Loose",
         "strType": "Item",
         "nStackLimit": 5,
         "aInteractions": [
@@ -132,9 +134,9 @@
             "MeleeAttackDefaultFragile"
         ],
         "aUpdateCommands": [
-            "Destructable,StatDamage,UI_ACT_Subfloor_Conduit_Loose_Destroy,StatDamageMax,1.0"
+            "Destructable,StatDamage,UI_ACT_Conduit_Subfloor_Loose_Destroy,StatDamageMax,1.0"
         ],
-        "strPortraitImg": "subfloor_conduit/UI_Itm_Subfloor_Conduit_Loose",
+        "strPortraitImg": "conduit_subfloor/UI_Itm_Conduit_Subfloor_Loose",
         "strAudioEmitter": "ItmMediumPartsGeneralSound03",
         "mapSlotEffects": [
             "heldL",
