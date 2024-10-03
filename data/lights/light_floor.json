@@ -1,0 +1,12 @@
+[
+    {
+        "strName" : "UI_Light_Floor_White_Cool",
+        "strImg": "lights/ItmLitWallBlue",
+        "strColor": "WhiteCool",
+        "fRadius" : 6,
+        "ptPos": {
+          "x": 0,
+          "y": 6
+        }
+      }
+]

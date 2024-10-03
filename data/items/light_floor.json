@@ -1,55 +1,55 @@
 [
     {
-        "strName" : "UI_ItmLitWall1x0",
-        "strImg"  : "lights/ItmLitWall_Off",
-        "strImgNorm"  : "lights/ItmLitWall_Norm",
+        "strName" : "UI_Itm_Light_Floor_Blue",
+        "strImg"  : "light_floor/UI_Itm_Light_Floor_Off",
+        "strImgNorm"  : "light_floor/UI_Itm_Light_Floor_Off_Normal",
         "strImgDamaged" : "",
         "strDmgColor" : "DamageTintSludge",
         "fZScale"  : 0.5,
         "nCols"  : 1,
         "aLights"        : [
-          "Wall1x0WhiteCool"
+          "UI_Light_Floor_White_Cool"
         ],
         "aSocketAdds"    : [
-          "TILLight"
+          "TILFloor"
         ],
         "aSocketForbids"    : [
           "Blank", "Blank", "Blank",
-          "Blank", "TILLight", "Blank",
+          "Blank", "TILFloor", "Blank",
           "Blank", "Blank", "Blank"
         ],
         "aSocketReqs"    : [
-          "Blank", "TILWall", "Blank",
+          "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank"
         ]
       },
       {
-        "strName" : "UI_ItmLitWall1x0Off",
-        "strImg"  : "lights/ItmLitWall_Off",
-        "strImgNorm"  : "lights/ItmLitWall_Norm",
+        "strName" : "UI_Itm_Light_Floor_Blue_Off",
+        "strImg"  : "light_floor/UI_Itm_Light_Floor_Off",
+        "strImgNorm"  : "light_floor/UI_Itm_Light_Floor_Off_Normal",
         "strImgDamaged" : "",
         "strDmgColor" : "DamageTintSludge",
         "fZScale"  : 0.5,
         "nCols"  : 1,
         "aSocketAdds"    : [
-          "TILLight"
+          "TILFloorDmgAdds"
         ],
         "aSocketForbids"    : [
           "Blank", "Blank", "Blank",
-          "Blank", "TILLight", "Blank",
+          "Blank", "TILFloor", "Blank",
           "Blank", "Blank", "Blank"
         ],
         "aSocketReqs"    : [
-          "Blank", "TILWall", "Blank",
+          "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank",
           "Blank", "Blank", "Blank"
         ]  
       },
       {
-        "strName" : "UI_ItmLitWall1x0OffLoose",
-        "strImg"  : "ItmLitWall1x0Loose",
-        "strImgNorm"  : "ItmLitWall1x0Loosen",
+        "strName" : "UI_Itm_Light_Floor_Blue_Off_Loose",
+        "strImg"  : "light_floor/UI_Itm_Light_Floor_Loose",
+        "strImgNorm"  : "light_floor/UI_Itm_Light_Floor_Loose_Normal",
         "strImgDamaged" : "",
         "strDmgColor" : "DamageTintSludge",
         "fZScale"  : 0.5,

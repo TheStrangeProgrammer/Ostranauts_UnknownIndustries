@@ -19,7 +19,7 @@
       {
         "strName" : "UI_Itm_Light_Floor_Blue_Off",
         "aCOs"    : [
-          "UI_Itm_Light_Floor_Off=1.0x1"
+          "UI_Itm_Light_Floor_Blue_Off=1.0x1"
         ],
         "aLoots"  : [
         ],

@@ -1,0 +1,10 @@
+[
+    {
+        "strName": "UI_Is_Conduit_Subfloor",
+        "strNameFriendly": "Subfloor Conduit",
+        "strColor": "Neutral",
+        "strDesc": "[us] is a subfloor conduit.",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    }
+]

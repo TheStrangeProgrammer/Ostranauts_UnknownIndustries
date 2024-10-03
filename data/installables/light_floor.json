@@ -1,13 +1,13 @@
 [
     {
-        "strName": "UI_LitWall1x0Install",
-        "strActionCO": "ItmLitWall1x0OffLoose",
+        "strName": "UI_Itm_Light_Floor_Blue_Install",
+        "strActionCO": "UI_Itm_Light_Floor_Blue_Off_Loose",
         "strActionGroup": "Work",
         "strTooltip": "Installs item.",
         "strInteractionTemplate": "ACTInstallTEMP",
-        "CTThem": "TIsLitWall1x0Uninstalled",
+        "CTThem": "UI_T_Is_Light_Floor_Uninstalled",
         "aInputs": [
-            "TIsLitWall1x0Uninstalled=1.0x1"
+            "UI_T_Is_Light_Floor_Uninstalled=1.0x1"
         ],
         "fTargetPointRange": 2.0,
         "fDuration": 0.001,
@@ -16,9 +16,9 @@
             "TIsToolMortorq"
         ],
         "aLootCOs": [
-            "ItmLitWall1x0Off"
+            "UI_Itm_Light_Floor_Blue_Off"
         ],
-        "strStartInstall": "ItmLitWall1x0Off",
+        "strStartInstall": "UI_Itm_Light_Floor_Blue_Off",
         "strBuildType": "POWR",
         "strJobType": "install",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -28,12 +28,12 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_LitWall1x0OffUninstall",
-        "strActionCO": "ItmLitWall1x0Off",
+        "strName": "UI_Itm_Light_Floor_Blue_Off_Uninstall",
+        "strActionCO": "UI_Itm_Light_Floor_Blue_Off",
         "strActionGroup": "Work",
         "strTooltip": "Uninstalls item.",
         "strInteractionTemplate": "ACTUninstallTEMP",
-        "CTThem": "TIsLitWall1x0Installed",
+        "CTThem": "UI_T_Is_Light_Floor_Installed",
         "aInputs": [],
         "fTargetPointRange": 2.0,
         "fDuration": 0.001,
@@ -42,7 +42,7 @@
             "TIsToolMortorq"
         ],
         "aLootCOs": [
-            "ItmLitWall1x0OffLoose"
+            "UI_Itm_Light_Floor_Blue_Off_Loose"
         ],
         "strJobType": "uninstall",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -52,12 +52,12 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_LitWall1x0Uninstall",
-        "strActionCO": "ItmLitWall1x0",
+        "strName": "UI_Itm_Light_Floor_Blue_Uninstall",
+        "strActionCO": "UI_Itm_Light_Floor_Blue",
         "strActionGroup": "Work",
         "strTooltip": "Uninstalls item.",
         "strInteractionTemplate": "ACTUninstallTEMP",
-        "CTThem": "TIsLitWall1x0Installed",
+        "CTThem": "UI_T_Is_Light_Floor_Installed",
         "aInputs": [],
         "fTargetPointRange": 2.0,
         "fDuration": 0.001,
@@ -66,7 +66,7 @@
             "TIsToolMortorq"
         ],
         "aLootCOs": [
-            "ItmLitWall1x0OffLoose"
+            "UI_Itm_Light_Floor_Blue_Off_Loose"
         ],
         "strJobType": "uninstall",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -76,8 +76,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_LitWall1x0OffDismantle",
-        "strActionCO": "ItmLitWall1x0Off",
+        "strName": "UI_Itm_Light_Floor_Blue_Off_Dismantle",
+        "strActionCO": "UI_Itm_Light_Floor_Blue_Off",
         "strActionGroup": "Work",
         "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
         "strInteractionTemplate": "ACTDismantleTEMP",
@@ -99,8 +99,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_LitWall1x0OffLooseDismantle",
-        "strActionCO": "ItmLitWall1x0OffLoose",
+        "strName": "UI_Itm_Light_Floor_Blue_Off_Loose_Dismantle",
+        "strActionCO": "UI_Itm_Light_Floor_Blue_Off_Loose",
         "strActionGroup": "Work",
         "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
         "strInteractionTemplate": "ACTDismantleTEMP",
@@ -122,8 +122,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_LitWall1x0OffUndamage",
-        "strActionCO": "ItmLitWall1x0Off",
+        "strName": "UI_Itm_Light_Floor_Blue_Off_Undamage",
+        "strActionCO": "UI_Itm_Light_Floor_Blue_Off",
         "strActionGroup": "Work",
         "strTooltip": "Reduces item's wear and tear to prevent damage.",
         "strInteractionTemplate": "ACTUndamageTEMP",
@@ -137,7 +137,7 @@
             "TIsToolSoldering"
         ],
         "aLootCOs": [
-            "ItmLitWall1x0Off"
+            "UI_Itm_Light_Floor_Blue_Off"
         ],
         "strJobType": "repair",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -147,8 +147,8 @@
         "strCTThemMultCondUs": "StatInstallRatePOWR"
     },
     {
-        "strName": "UI_LitWall1x0Undamage",
-        "strActionCO": "ItmLitWall1x0",
+        "strName": "UI_Itm_Light_Floor_Blue_Undamage",
+        "strActionCO": "UI_Itm_Light_Floor_Blue",
         "strActionGroup": "Work",
         "strTooltip": "Reduces item's wear and tear to prevent damage.",
         "strInteractionTemplate": "ACTUndamageTEMP",
@@ -162,7 +162,7 @@
             "TIsToolSoldering"
         ],
         "aLootCOs": [
-            "ItmLitWall1x0"
+            "UI_Itm_Light_Floor_Blue"
         ],
         "strJobType": "repair",
         "strAllowLootCTsUs": "CTWorkProgressPOWR",
