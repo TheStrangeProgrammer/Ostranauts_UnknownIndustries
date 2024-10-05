@@ -1,9 +1,0 @@
-[
-    {
-        "strName": "UI_GlowStick_On",
-        "strCondLoot": "UI_COND_Tick_GlowStick_On",
-        "fPeriod": 0.000278,
-        "fTimeLeft": 0.000278,
-        "bRepeat": true
-    }
-]
