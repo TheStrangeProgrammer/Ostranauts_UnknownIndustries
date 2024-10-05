@@ -1,0 +1,38 @@
+[
+    {
+        "strName" : "US_Mini_EVA_Helmet",
+        "strSlotImage" : "paperdoll/helmetOutfitHelmet03",
+        "strSlotImageUnder" : "paperdoll/helmetOutfitHelmet03Dmg02",
+        "strIASlot" : "SLOTHelmet01",
+        "strIAUnslot" : "UNSLOTHelmet01",
+        "strIASlotParents" : null,
+        "strIAUnslotParents" : null,
+        "mapMeshTextures" : [
+          "EVAHelmet","Crew2EVA:Crew2EVAn"
+        ]
+      },
+      {
+        "strName" : "US_Mini_EVA_Helmet_Off",
+        "strSlotImage" : "paperdoll/helmetOutfitHelmet03",
+        "strSlotImageUnder" : "paperdoll/helmetOutfitHelmet03Dmg02",
+        "strIASlot" : "SLOTHelmet01",
+        "strIAUnslot" : "UNSLOTHelmet01",
+        "strIASlotParents" : null,
+        "strIAUnslotParents" : null,
+        "mapMeshTextures" : [
+          "EVAHelmet","Crew2EVA:Crew2EVAn"
+        ]
+      },
+      {
+        "strName" : "US_Mini_EVA_Helmet_Dmg",
+        "strSlotImage" : "paperdoll/helmetOutfitHelmet03Dmg02",
+        "strSlotImageUnder" : null,
+        "strIASlot" : "SLOTHelmet01Dmg",
+        "strIAUnslot" : "UNSLOTHelmet01Dmg",
+        "strIASlotParents" : null,
+        "strIAUnslotParents" : null,
+        "mapMeshTextures" : [
+          "EVAHelmet","Crew2EVA:Crew2EVAn"
+        ]
+      }
+]

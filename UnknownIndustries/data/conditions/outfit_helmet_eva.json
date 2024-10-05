@@ -1,0 +1,10 @@
+[
+    {
+        "strName": "UI_Is_Outfit_Helmet_EVA",
+        "strNameFriendly": "EVA Helmet",
+        "strColor": "Neutral",
+        "strDesc": "[us] is an 'Unknown Industries'-brand EVA Helmet.",
+        "nDisplaySelf": 2,
+        "nDisplayOther": 2
+    }
+]

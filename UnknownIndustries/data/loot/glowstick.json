@@ -1,0 +1,98 @@
+[
+    {
+        "strName": "UI_COND_Hand_L_GlowStick_On",
+        "aCOs": [],
+        "aLoots": [],
+        "strType": "condition"
+    },
+    {
+        "strName": "UI_COND_Hand_L_Remove_GlowStick_On",
+        "aCOs": [],
+        "aLoots": [],
+        "strType": "condition"
+    },
+    {
+        "strName": "UI_COND_Hand_R_GlowStick_On",
+        "aCOs": [],
+        "aLoots": [],
+        "strType": "condition"
+    },
+    {
+        "strName": "UI_COND_Hand_R_Remove_GlowStick_On",
+        "aCOs": [],
+        "aLoots": [],
+        "strType": "condition"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Red",
+        "aCOs": ["UI_Itm_GlowStick_Red=1.0x1"],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Red_On",
+        "aCOs": ["UI_Itm_GlowStick_Red_On=1.0x1"],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Green",
+        "aCOs": ["UI_Itm_GlowStick_Green=1.0x1"],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Green_On",
+        "aCOs": ["UI_Itm_GlowStick_Green_On=1.0x1"],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Blue",
+        "aCOs": ["UI_Itm_GlowStick_Blue=1.0x1"],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Blue_On",
+        "aCOs": ["UI_Itm_GlowStick_Blue_On=1.0x1"],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Purple",
+        "aCOs": ["UI_Itm_GlowStick_Purple=1.0x1"],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Purple_On",
+        "aCOs": ["UI_Itm_GlowStick_Purple_On=1.0x1"],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_GlowStick_Used",
+        "aCOs": [
+            "UI_Itm_GlowStick_Used=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_ACT_GlowStick_On_To_GlowStick_Used",
+        "aCOs": [
+            "UI_MS_GlowStick_Used=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "interaction"
+    },
+    {
+        "strName": "UI_COND_Tick_GlowStick_On",
+        "aCOs": [
+            "UI_Stat_GlowStick_Used=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "condition"
+    }
+]

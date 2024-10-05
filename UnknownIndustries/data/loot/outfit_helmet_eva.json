@@ -1,0 +1,112 @@
+[
+    {
+        "strName": "UI_Outfit_Helmet_EVA",
+        "aCOs": [
+            "UI_Outfit_Helmet_EVA=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Outfit_Helmet_EVA_Dmg",
+        "aCOs": [
+            "UI_Outfit_Helmet_EVA_Dmg=1.0x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Outfit_Helmet_EVA_Empty",
+        "aCOs": [
+            "UI_Outfit_Helmet_EVA=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Outfit_Helmet_EVA_Off_Empty",
+        "aCOs": [
+            "UI_Outfit_Helmet_EVA_Off=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "strType": "item"
+    },
+    {
+        "strName": "UI_Itm_Outfit_Helmet_EVA_Pockets",
+        "aCOs": [
+            "UI_Pocket_Outfit_Helmet_EVA_Battery=1x1",
+            "UI_Pocket_Outfit_Helmet_EVA_O2=1x1",
+            "UI_Pocket_Outfit_Helmet_EVA_CO2=1x1"
+        ],
+        "aLoots": [],
+        "strType": "item"
+    },
+    {
+        "strName" : "UI_COND_Outfit_Helmet_EVA",
+        "aCOs"    : [
+          "IsAirtight=1.0x1",
+          "IsCrewHeadLamp=1.0x12",
+          "IsEVAHUD=1.0x1",
+          "StatBodyInsulation=1.0x0.1",
+          "StatVolume=1.0x0.125"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "condition"
+      },
+      {
+        "strName" : "UI_COND_Outfit_Helmet_EVA_Remove",
+        "aCOs"    : [
+          "-IsAirtight=1.0x1",
+          "-IsCrewHeadLamp=1.0x12",
+          "-IsEVAHUD=1.0x1",
+          "-StatBodyInsulation=1.0x0.1",
+          "-StatVolume=1.0x0.125"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "condition"
+      },
+      {
+        "strName" : "UI_COND_Outfit_Helmet_EVA_Off",
+        "aCOs"    : [
+          "IsAirtight=1.0x1",
+          "StatBodyInsulation=1.0x0.1",
+          "StatVolume=1.0x0.125"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "condition"
+      },
+      {
+        "strName" : "UI_COND_Outfit_Helmet_EVA_Off_Remove",
+        "aCOs"    : [
+          "-IsAirtight=1.0x1",
+          "-StatBodyInsulation=1.0x0.1",
+          "-StatVolume=1.0x0.125"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "condition"
+      },
+      {
+        "strName" : "UI_COND_Outfit_Helmet_EVA_Dmg",
+        "aCOs"    : [
+          "IsDmgHUD=1.0x1"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "condition"
+      },
+      {
+        "strName" : "UI_COND_Outfit_Helmet_EVA_Dmg_Remove",
+        "aCOs"    : [
+          "-IsDmgHUD=1.0x1"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "condition"
+      }
+]

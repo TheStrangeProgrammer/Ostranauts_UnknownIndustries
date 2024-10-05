@@ -1,0 +1,52 @@
+[
+    {
+        "strName": "UI_MS_Light_Floor_Dmg",
+        "strTitle": "",
+        "strDesc": "[us] is destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWallLightComponents"
+    },
+    {
+        "strName": "UI_MS_LightSwitch_Off_Allow",
+        "strTitle": "",
+        "strDesc": "[us] switches off.",
+        "strTargetPoint": null,
+        "fTargetPointRange": 0,
+        "strAnim": null,
+        "strBubble": null,
+        "aInverse": [],
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "strRaiseUI": null,
+        "LootCTsUs": null,
+        "LootCTsThem": null,
+        "CTTestUs": "UI_T_Is_LightSource_On",
+        "CTTestThem": null,
+        "aLootItms": [],
+        "objLootModeSwitch": "UI_Itm_Light_Floor_Blue_Off"
+    },
+    {
+        "strName": "UI_MS_LightSwitch_On_Allow",
+        "strTitle": "",
+        "strDesc": "[us] switches on.",
+        "strTargetPoint": null,
+        "fTargetPointRange": 0,
+        "strAnim": null,
+        "strBubble": null,
+        "aInverse": [],
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "strRaiseUI": null,
+        "LootCTsUs": null,
+        "LootCTsThem": null,
+        "CTTestUs": "UI_T_Is_LightSource_Off",
+        "CTTestThem": null,
+        "aLootItms": [],
+        "objLootModeSwitch": "UI_Itm_Light_Floor_Blue"
+    }
+]

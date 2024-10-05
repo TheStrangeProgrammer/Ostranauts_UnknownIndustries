@@ -1,0 +1,107 @@
+[
+    {
+        "strName" : "UI_MS_Outfit_Helmet_EVA_Switch_Off_Allow",
+        "strTitle" : "",
+        "strDesc" : "[us] switches off.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "UI_T_Is_UI_Outfit_Helmet_EVA_On",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "UI_Outfit_Helmet_EVA_Off_Empty"
+      },
+      {
+        "strName" : "UI_MS_Outfit_Helmet_EVA_Switch_On_Allow",
+        "strTitle" : "",
+        "strDesc" : "[us] switches on.",
+        "strTargetPoint" : null,
+        "fTargetPointRange" : 0,
+        "strAnim"           : null,
+        "strBubble"         : null,
+        "aInverse"          : [
+        ],
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "strRaiseUI"        : null,
+        "LootCTsUs"       : null,
+        "LootCTsThem"     : null,
+        "CTTestUs"           : "UI_T_Is_UI_Outfit_Helmet_EVA_Off",
+        "CTTestThem"         : null,
+        "aLootItms"       : [
+        ],
+        "objLootModeSwitch"    : "UI_Outfit_Helmet_EVA_Empty"
+      },
+      {
+        "strName" : "UI_SLOT_Outfit_Helmet_EVA",
+        "strDesc" : "[us] is slotted on [them].",
+        "aInverse"          : [
+        ],
+        "strThemType"       : "Other",
+        "nLogging"         : 0,
+        "bOpener"  :true,
+        "LootCondsUs"         : null,
+        "LootCondsThem"       : "UI_COND_Outfit_Helmet_EVA",
+        "CTTestUs"          : null,
+        "CTTestThem"        : null,
+        "aLootItms"         : [
+        ]
+      },
+      {
+        "strName" : "UI_UNSLOT_Outfit_Helmet_EVA",
+        "strDesc" : "[us] is slotted on [them].",
+        "aInverse"          : [
+        ],
+        "strThemType"       : "Other",
+        "nLogging"         : 0,
+        "bOpener"  :true,
+        "LootCondsUs"         : null,
+        "LootCondsThem"       : "UI_COND_Outfit_Helmet_EVA_Remove",
+        "CTTestUs"          : null,
+        "CTTestThem"        : null,
+        "aLootItms"         : [
+        ]
+      },
+      {
+        "strName" : "UI_SLOT_Outfit_Helmet_EVA_Off",
+        "strDesc" : "[us] is slotted on [them].",
+        "aInverse"          : [
+        ],
+        "strThemType"       : "Other",
+        "nLogging"         : 0,
+        "bOpener"  :true,
+        "LootCondsUs"         : null,
+        "LootCondsThem"       : "UI_COND_Outfit_Helmet_EVA_Off",
+        "CTTestUs"          : null,
+        "CTTestThem"        : null,
+        "aLootItms"         : [
+        ]
+      },
+      
+      {
+        "strName" : "UI_UNSLOT_Outfit_Helmet_EVA_Off",
+        "strDesc" : "[us] is slotted on [them].",
+        "aInverse"          : [
+        ],
+        "strThemType"       : "Other",
+        "nLogging"         : 0,
+        "bOpener"  :true,
+        "LootCondsUs"         : null,
+        "LootCondsThem"       : "UI_COND_Outfit_Helmet_EVA_Off_Remove",
+        "CTTestUs"          : null,
+        "CTTestThem"        : null,
+        "aLootItms"         : [
+        ]
+      }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "strName": "UI_Outfit_Helmet_EVA",
+    "strNameShort": "EVA Helmet",
+    "strNameFriendly": "'Unknown Industries' EVA Helmet",
+    "strDesc": "",
+    "strItemDef": "UI_Outfit_Helmet_EVA",
+    "strType": "Item",
+    "strLoot": "UI_Itm_Outfit_Helmet_EVA_Pockets",
+    "aSlotsWeHave": [
+      "UI_Pocket_Outfit_Helmet_EVA_Battery",
+      "UI_Pocket_Outfit_Helmet_EVA_O2",
+      "UI_Pocket_Outfit_Helmet_EVA_CO2"
+    ],
+    "aInteractions": [
+      "Inventory",
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "UI_Is_UnknownIndustries=1.0x1.0",
+      "UI_Is_Outfit_Helmet_EVA=1.0x1.0",
+      "IsPowered=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsPowerObservable=1.0x1",
+      "IsEVAHelmet=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsClippable=1.0x1",
+      "StatMass=1.0x3.0",
+      "StatBasePrice=1.0x7000.0",
+      "StatDamageMax=1.0x10",
+      "StatDismantleProgressMax=1.0x10",
+      "StatArmorBlunt=1.0x1.25",
+      "StatArmorCut=1.0x1.5",
+      "IsCategorySpaceSuits=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands": [
+      "GasRespire2,HelmetCO2,null",
+      "GasPump,HelmetO2,null",
+      "Destructable,StatDamage,ACTHelmet03Damage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "CrewHelmet03",
+    "strAudioEmitter": "ItmGasHelmetSound",
+    "mapSlotEffects": [
+      "head_out",
+      "UI_Outfit_Helmet_EVA",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "aTickers": [
+      "Power"
+    ],
+    "jsonPI": "UI_Outfit_Helmet_EVA"
+  },
+  {
+    "strName": "UI_Outfit_Helmet_EVA_Off",
+    "strNameShort": "EVA Helmet",
+    "strNameFriendly": "'Unknwon Industries' EVA Helmet (Off)",
+    "strDesc": "",
+    "strItemDef": "UI_Outfit_Helmet_EVA",
+    "strType": "Item",
+    "strLoot": "UI_Itm_Outfit_Helmet_EVA_Pockets",
+    "aSlotsWeHave": [
+      "UI_Pocket_Outfit_Helmet_EVA_Battery",
+      "UI_Pocket_Outfit_Helmet_EVA_O2",
+      "UI_Pocket_Outfit_Helmet_EVA_CO2"
+    ],
+    "aInteractions": [
+      "Inventory",
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "UI_Is_UnknownIndustries=1.0x1.0",
+      "UI_Is_Outfit_Helmet_EVA=1.0x1.0",
+      "IsEVAHelmet=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsPowerObservable=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsClippable=1.0x1",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x2500.0",
+      "StatDamageMax=1.0x10",
+      "StatDismantleProgressMax=1.0x10",
+      "StatArmorBlunt=1.0x1.25",
+      "StatArmorCut=1.0x1.5",
+      "IsCategorySpaceSuits=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands": [
+      "GasRespire2,HelmetCO2,null",
+      "Destructable,StatDamage,ACTHelmet03Damage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "CrewHelmet03",
+    "strAudioEmitter": "ItmGasHelmetSound",
+    "mapSlotEffects": [
+      "head_out",
+      "UI_Outfit_Helmet_EVA_Off",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "aTickers": [
+       "Power"
+    ],
+    "jsonPI": "UI_Outfit_Helmet_EVA"
+  },
+  {
+    "strName": "UI_Outfit_Helmet_EVA_Dmg",
+    "strNameShort": "EVA Helmet",
+    "strNameFriendly": "'Unknwon Industries' EVA Helmet (Damaged)",
+    "strDesc": "",
+    "strItemDef": "UI_Outfit_Helmet_EVA_Dmg",
+    "strType": "Item",
+    "strLoot": "UI_Itm_Outfit_Helmet_EVA_Pockets",
+    "aSlotsWeHave": [
+      "UI_Pocket_Outfit_Helmet_EVA_Battery",
+      "UI_Pocket_Outfit_Helmet_EVA_O2",
+      "UI_Pocket_Outfit_Helmet_EVA_CO2"
+    ],
+    "aInteractions": [
+      "Inventory",
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "UI_Is_UnknownIndustries=1.0x1.0",
+      "UI_Is_Outfit_Helmet_EVA=1.0x1.0",
+      "IsPowerObservable=1.0x1.0",
+      "IsOff=1.0x1",
+      "IsDamaged=1.0x1",
+      "IsEVAHelmet=1.0x1.0",
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsClippable=1.0x1",
+      "StatMass=1.0x2.0",
+      "StatBasePrice=1.0x850.0",
+      "StatDamageMax=1.0x30",
+      "StatRepairProgressMax=1.0x650",
+      "StatArmorBlunt=1.0x1.25",
+      "StatArmorCut=1.0x0.8",
+      "IsCategorySpaceSuits=1.0x1"
+    ],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee",
+      "MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTHelmet03Destroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "CrewHelmet03Dmg02",
+    "strAudioEmitter": "ItmGasHelmetSound",
+    "mapSlotEffects": [
+      "head_out",
+      "UI_Outfit_Helmet_EVA_Dmg",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "aTickers": [],
+    "jsonPI": null
+  },
+  
+  {
+    "strName": "UI_Pocket_Outfit_Helmet_EVA_Battery",
+    "strNameShort": "Battery Compartment",
+    "strItemDef": "Blank",
+    "strDesc": "A battery compartment  in an 'Unknown Industries' EVA helmet.",
+    "strNameFriendly": "'Unknown Industries' EVA Battery Compartment",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 1,
+    "aInteractions": [],
+    "aStartingConds": [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked": true,
+    "strContainerCT": "UI_T_Is_Fit_Container_Outfit_Helmet_EVA_Battery",
+    "nContainerHeight": 1,
+    "nContainerWidth": 1,
+    "mapPoints": [],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "blank",
+    "strAudioEmitter": "ItmBatteryGeneralSound",
+    "mapSlotEffects": [
+      "UI_Pocket_Outfit_Helmet_EVA_Battery",
+      "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "UI_Pocket_Outfit_Helmet_EVA_CO2",
+    "strNameShort": "Filter Compartment",
+    "strItemDef": "Blank",
+    "strDesc": "A CO2 filter compartment  in an 'Unknown Industries' EVA helmet.",
+    "strNameFriendly": "'Unknown Industries' EVA CO2 Filter Compartment",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 1,
+    "aInteractions": [],
+    "aStartingConds": [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked": true,
+    "strContainerCT": "UI_T_Is_Fit_Container_Outfit_Helmet_EVA_Filter",
+    "nContainerHeight": 1,
+    "nContainerWidth": 1,
+    "mapPoints": [],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "blank",
+    "mapSlotEffects": [
+      "UI_Pocket_Outfit_Helmet_EVA_CO2",
+      "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "UI_Pocket_Outfit_Helmet_EVA_O2",
+    "strNameShort": "O2 Compartment",
+    "strItemDef": "Blank",
+    "strDesc": "An O2 bottle compartment in an 'Unknown Industries' EVA helmet.",
+    "strNameFriendly": "'Unknown Industries' EVA O2 Capsule Compartment",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 1,
+    "aInteractions": [],
+    "aStartingConds": [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked": true,
+    "strContainerCT": "UI_T_Is_Fit_Container_Outfit_Helmet_EVA_Bottle",
+    "nContainerHeight": 1,
+    "nContainerWidth": 1,
+    "mapPoints": [],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "blank",
+    "mapSlotEffects": [
+      "UI_Pocket_Outfit_Helmet_EVA_O2",
+      "Blank"
+    ],
+    "jsonPI": null
+  }
+]

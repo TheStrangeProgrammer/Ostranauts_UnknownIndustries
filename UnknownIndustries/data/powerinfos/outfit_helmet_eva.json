@@ -1,0 +1,14 @@
+[
+    {
+        "strName" : "UI_Outfit_Helmet_EVA",
+        "aInputPts"      : [
+        ],
+        "fAmount": 0.0000278,
+        "strIntPowerOn": "UI_MS_Outfit_Helmet_EVA_Switch_On_Allow",
+        "strIntPowerOff": "UI_MS_Outfit_Helmet_EVA_Switch_Off_Allow",
+        "strUsePowerCT": "TIsReadyUsePowerEVA",
+        "strRechargeCT": null,
+        "bAllowExtPower" :  false,
+        "strPowerSourceCT" : "TIsPowerStorageEVA"
+      }
+]

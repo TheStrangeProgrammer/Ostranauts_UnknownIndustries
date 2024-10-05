@@ -1,0 +1,54 @@
+[
+    {
+        "strName": "UI_T_Is_GlowStick_Red",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "UI_Is_GlowStick_Red"
+        ],
+        "aForbids": [
+        ],
+        "aTriggers": [],
+        "bAND": true
+    },
+    {
+        "strName": "UI_T_Is_GlowStick_Green",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "UI_Is_GlowStick_Green"
+        ],
+        "aForbids": [
+        ],
+        "aTriggers": [],
+        "bAND": true
+    },
+    {
+        "strName": "UI_T_Is_GlowStick_Blue",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "UI_Is_GlowStick_Blue"
+        ],
+        "aForbids": [
+        ],
+        "aTriggers": [],
+        "bAND": true
+    },
+    {
+        "strName": "UI_T_Is_GlowStick_Purple",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "UI_Is_GlowStick_Purple"
+        ],
+        "aForbids": [
+        ],
+        "aTriggers": [],
+        "bAND": true
+    }
+]

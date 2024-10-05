@@ -1,0 +1,44 @@
+[
+    {
+        "strName": "UI_Pocket_Outfit_Helmet_EVA_Battery",
+        "strNameFriendly": "EVA Battery Compartment",
+        "strHitboxImage": "blank",
+        "nItems": 1,
+        "nDepth": 5,
+        "fAlignX": 0.0,
+        "fAlignY": 0.0,
+        "bAlignSlot": false,
+        "bHoldSlot": false,
+        "bHide": false,
+        "bCarried": true,
+        "bAllowStacks": false
+    },
+    {
+        "strName": "UI_Pocket_Outfit_Helmet_EVA_CO2",
+        "strNameFriendly": "EVA CO2 Filter Compartment",
+        "strHitboxImage": "blank",
+        "nItems": 1,
+        "nDepth": 5,
+        "fAlignX": 0.0,
+        "fAlignY": 0.0,
+        "bAlignSlot": false,
+        "bHoldSlot": false,
+        "bHide": false,
+        "bCarried": true,
+        "bAllowStacks": false
+    },
+    {
+        "strName": "UI_Pocket_Outfit_Helmet_EVA_O2",
+        "strNameFriendly": "EVA O2 Bottle Compartment",
+        "strHitboxImage": "blank",
+        "nItems": 1,
+        "nDepth": 5,
+        "fAlignX": 0.0,
+        "fAlignY": 0.0,
+        "bAlignSlot": false,
+        "bHoldSlot": false,
+        "bHide": false,
+        "bCarried": true,
+        "bAllowStacks": false
+    }
+]

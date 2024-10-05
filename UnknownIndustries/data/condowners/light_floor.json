@@ -1,0 +1,137 @@
+[
+    {
+        "strName" : "UI_Itm_Light_Floor_Blue",
+        "strNameShort" : "Light",
+        "strNameFriendly" : "Floor Light: Blue",
+        "strItemDef" : "UI_Itm_Light_Floor_Blue",
+        "strType"    : "Item",
+        "strLoot"    : null,
+        "aInteractions" : [
+        ],
+        "aStartingConds" : [
+            "UI_Is_UnknownIndustries=1.0x1",
+            "UI_Is_Light_Floor=1.0x1",
+          "IsHiddenInv=1.0x1",
+          "IsCheckRoom=1.0x1",
+          "IsInstalled=1.0x1",
+          "IsLightSource=1.0x1",
+          "IsNonHighlightable=1.0x1",
+          "IsPowered=1.0x1",
+          "IsSalvageValueHigh=1.0x1.0",
+          "IsSolid=1.0x1.0",
+          "StatBasePrice=1.0x83.00",
+          "StatDismantleProgressMax=1.0x110",
+          "StatInstallProgressMax=1.0x200",
+          "StatUninstallProgressMax=1.0x200",
+          "StatMass=1.0x6.5",
+          "StatDamageMax=1.0x15",
+          "IsTechnology=1.0x1",
+          "IsCategoryHull=1.0x1",
+          "IsSignalable=1.0x1"
+        ],
+        "mapCondTolerance"       : [
+        ],
+        "mapPoints"      : [
+          "PowerSource,0,16"
+        ],
+        "mapGUIPropMaps" : [
+          "Electrical"
+        ],
+        "aUpdateCommands" : [
+          "Destructable,StatDamage,UI_ACT_Light_Floor_Dmg,StatDamageMax,1.0",
+          "Electrical,Electrical"
+        ],
+        "strPortraitImg"  : "light_floor/UI_Itm_Light_Floor_Off",
+        "aTickers" : [ 
+          "Power"
+        ],
+        "jsonPI"            : "UI_Floor_Light"
+      },
+      {
+        "strName" : "UI_Itm_Light_Floor_Blue_Off",
+        "strNameShort" : "Light",
+        "strNameFriendly" : "Floor Light: Blue (Off)",
+        "strItemDef" : "UI_Itm_Light_Floor_Blue_Off",
+        "strType"    : "Item",
+        "strLoot"    : null,
+        "aInteractions" : [
+        ],
+        "aStartingConds" : [
+            "UI_Is_UnknownIndustries=1.0x1",
+            "UI_Is_Light_Floor=1.0x1",
+          "IsHiddenInv=1.0x1",
+          "IsInstalled=1.0x1",
+          "IsCheckRoom=1.0x1",
+          "IsLightSource=1.0x1",
+          "IsNonHighlightable=1.0x1",
+          "IsOff=1.0x1",
+          "IsSalvageValueHigh=1.0x1.0",
+          "IsSolid=1.0x1.0",
+          "StatBasePrice=1.0x83.00",
+          "StatDismantleProgressMax=1.0x110",
+          "StatInstallProgressMax=1.0x200",
+          "StatUninstallProgressMax=1.0x200",
+          "StatMass=1.0x6.5",
+          "StatDamageMax=1.0x15",
+          "IsTechnology=1.0x1",
+          "IsCategoryElectronics=1.0x1",
+          "IsSignalable=1.0x1"
+        ],
+        "mapCondTolerance"       : [
+        ],
+        "mapPoints"      : [
+          "PowerSource,0,16"
+        ],
+        "mapGUIPropMaps" : [
+          "Electrical"
+        ],
+        "aUpdateCommands" : [
+          "Destructable,StatDamage,UI_ACT_Light_Floor_Dmg,StatDamageMax,1.0",
+          "Electrical,Electrical"
+        ],
+        "strPortraitImg"  : "light_floor/UI_Itm_Light_Floor_Off",
+        "aTickers" : [ 
+          "Power"
+        ],
+        "jsonPI"            : "UI_Floor_Light"
+      },
+      {
+        "strName" : "UI_Itm_Light_Floor_Blue_Off_Loose",
+        "strNameShort" : "Light",
+        "strNameFriendly" : "Floor Light: Blue (Loose)",
+        "strItemDef" : "UI_Itm_Light_Floor_Blue_Off_Loose",
+        "strType"    : "Item",
+        "aInteractions" : [
+          "DropItem",
+          "PickupItem"
+        ],
+        "aStartingConds" : [
+            "UI_Is_UnknownIndustries=1.0x1",
+            "UI_Is_Light_Floor=1.0x1",
+          "IsLightSource=1.0x1",
+          "IsOff=1.0x1",
+          "IsSalvageValueHigh=1.0x1.0",
+          "IsSolid=1.0x1.0",
+          "IsPocketable=1.0x1.0",
+          "StatBasePrice=1.0x83.00",
+          "StatDismantleProgressMax=1.0x110",
+          "StatInstallProgressMax=1.0x200",
+          "StatUninstallProgressMax=1.0x200",
+          "StatMass=1.0x6.5",
+          "StatDamageMax=1.0x15",
+          "IsTechnology=1.0x1",
+          "IsCategoryElectronics=1.0x1"
+        ],
+        "aUpdateCommands" : [
+          "Destructable,StatDamage,UI_ACT_Light_Floor_Dmg,StatDamageMax,1.0"
+        ],
+        "mapChargeProfiles"  : [
+          "Melee","MeleeAttackDefaultExtraFragile"
+        ],
+        "mapSlotEffects" : [
+          "heldL","HeldItmDefaultL",
+          "heldR","HeldItmDefaultR"
+        ],
+        "strPortraitImg"  : "light_floor/UI_Itm_Light_Floor_Loose"
+      }
+]

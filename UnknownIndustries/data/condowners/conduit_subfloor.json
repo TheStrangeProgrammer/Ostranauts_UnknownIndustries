@@ -1,0 +1,148 @@
+[
+    {
+        "strName": "UI_Itm_Conduit_Subfloor",
+        "strNameShort": "Conduit",
+        "strNameFriendly": "Conduit",
+        "strItemDef": "UI_Itm_Conduit_Subfloor",
+        "strDesc": "Fixed cabling raceway capable of transmitting power between shipboard components. Any engineer worth their salt knows the importance of a good cable run, especially when salvaging damaged starships.",
+        "strType": "Item",
+        "aInteractions": [],
+        "aStartingConds": [
+            "IsHiddenInv=1.0x1",
+            "UI_Is_UnknownIndustries=1.0x1",
+            "IsInstalled=1.0x1",
+            "IsPowerConduit=1.0x1",
+            "IsPowerRecalc=1.0x1",
+            "IsSolid=1.0x1.0",
+            "StatBasePrice=1.0x80",
+            "StatDismantleProgressMax=1.0x30",
+            "StatInstallProgressMax=1.0x150",
+            "StatUninstallProgressMax=1.0x150",
+            "StatMass=1.0x0.5",
+            "StatDamageMax=1.0x2",
+            "IsCategoryElectronics=1.0x1"
+        ],
+        "aUpdateCommands": [
+            "Destructable,StatDamage,UI_ACT_Conduit_Subfloor_Damage,StatDamageMax,1.0"
+        ],
+        "strPortraitImg": "conduit_subfloor/UI_Itm_Conduit_Subfloor"
+    },
+    {
+        "strName": "UI_Itm_Conduit_Subfloor_Dmg",
+        "strNameShort": "Conduit",
+        "strNameFriendly": "Conduit (Damaged)",
+        "strItemDef": "UI_Itm_Conduit_Subfloor_Dmg",
+        "strDesc": "Fixed cabling raceway capable of transmitting power between shipboard components. Any engineer worth their salt knows the importance of a good cable run, especially when salvaging damaged starships.",
+        "strType": "Item",
+        "aInteractions": [],
+        "aStartingConds": [
+            "IsHiddenInv=1.0x1",
+            "UI_Is_UnknownIndustries=1.0x1",
+            "IsInstalled=1.0x1",
+            "IsDamaged=1.0x1",
+            "IsPowerConduit=1.0x1",
+            "IsPowerRecalc=1.0x1",
+            "IsSolid=1.0x1.0",
+            "StatBasePrice=1.0x8",
+            "StatDismantleProgressMax=1.0x30",
+            "StatInstallProgressMax=1.0x150",
+            "StatUninstallProgressMax=1.0x150",
+            "StatRepairProgressMax=1.0x450",
+            "StatMass=1.0x0.5",
+            "StatDamageMax=1.0x3",
+            "IsCategoryElectronics=1.0x1"
+        ],
+        "aUpdateCommands": [
+            "Destructable,StatDamage,UI_ACT_Conduit_Subfloor_Destroy,StatDamageMax,1.0"
+        ],
+        "strPortraitImg": "conduit_subfloor/UI_Itm_Conduit_Subfloor",
+        "strAudioEmitter": "ItmConduit01DmgSound"
+    },
+    {
+        "strName": "UI_Itm_Conduit_Subfloor_Loose",
+        "strNameShort": "Conduit",
+        "strNameFriendly": "Conduit (Loose)",
+        "strDesc": "Fixed cabling raceway capable of transmitting power between shipboard components. Any engineer worth their salt knows the importance of a good cable run, especially when salvaging damaged starships.",
+        "strItemDef": "UI_Itm_Conduit_Subfloor_Loose",
+        "strType": "Item",
+        "nStackLimit": 5,
+        "aInteractions": [
+            "DropItem",
+            "DropItemStack",
+            "PickupItem",
+            "PickupItemStack"
+        ],
+        "aStartingConds": [
+            "UI_Is_UnknownIndustries=1.0x1",
+            "IsPowerConduit=1.0x1",
+            "IsSolid=1.0x1.0",
+            "StatBasePrice=1.0x80",
+            "StatDismantleProgressMax=1.0x30",
+            "StatInstallProgressMax=1.0x150",
+            "StatUninstallProgressMax=1.0x150",
+            "StatMass=1.0x0.5",
+            "StatDamageMax=1.0x2",
+            "IsCategoryElectronics=1.0x1"
+        ],
+        "mapChargeProfiles": [
+            "Melee",
+            "MeleeAttackDefaultFragile"
+        ],
+        "aUpdateCommands": [
+            "Destructable,StatDamage,UI_ACT_Conduit_Subfloor_Loose_Damage,StatDamageMax,1.0"
+        ],
+        "strPortraitImg": "conduit_subfloor/UI_Itm_Conduit_Subfloor_Loose",
+        "strAudioEmitter": "ItmMediumPartsGeneralSound03",
+        "mapSlotEffects": [
+            "heldL",
+            "HeldItmDefaultSoftL",
+            "heldR",
+            "HeldItmDefaultSoftR"
+        ]
+    },
+    {
+        "strName": "UI_Itm_Conduit_Subfloor_Dmg_Loose",
+        "strNameShort": "Conduit",
+        "strNameFriendly": "Conduit (Loose, Damaged)",
+        "strDesc": "Fixed cabling raceway capable of transmitting power between shipboard components. Any engineer worth their salt knows the importance of a good cable run, especially when salvaging damaged starships.",
+        "strItemDef": "UI_Itm_Conduit_Subfloor_Dmg_Loose",
+        "strType": "Item",
+        "nStackLimit": 5,
+        "aInteractions": [
+            "DropItem",
+            "DropItemStack",
+            "PickupItem",
+            "PickupItemStack"
+        ],
+        "aStartingConds": [
+            "UI_Is_UnknownIndustries=1.0x1",
+            "IsDamaged=1.0x1",
+
+            "IsPowerConduit=1.0x1",
+            "IsSolid=1.0x1.0",
+            "StatBasePrice=1.0x8",
+            "StatDismantleProgressMax=1.0x30",
+            "StatInstallProgressMax=1.0x150",
+            "StatUninstallProgressMax=1.0x150",
+            "StatRepairProgressMax=1.0x450",
+            "StatMass=1.0x0.5",
+            "StatDamageMax=1.0x2",
+            "IsCategoryElectronics=1.0x1"
+        ],
+        "mapChargeProfiles": [
+            "Melee",
+            "MeleeAttackDefaultFragile"
+        ],
+        "aUpdateCommands": [
+            "Destructable,StatDamage,UI_ACT_Conduit_Subfloor_Loose_Destroy,StatDamageMax,1.0"
+        ],
+        "strPortraitImg": "conduit_subfloor/UI_Itm_Conduit_Subfloor_Loose",
+        "strAudioEmitter": "ItmMediumPartsGeneralSound03",
+        "mapSlotEffects": [
+            "heldL",
+            "HeldItmDefaultSoftL",
+            "heldR",
+            "HeldItmDefaultSoftR"
+        ]
+    }
+]

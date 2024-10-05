@@ -1,0 +1,10 @@
+[
+    {
+        "strName": "UI_Is_UnknownIndustries",
+        "strNameFriendly": "Unknown Industries",
+        "strColor": "Neutral",
+        "strDesc": "[us] is an 'Unknown Industries'-brand item.",
+        "nDisplaySelf": 2,
+        "nDisplayOther": 2
+    }
+]

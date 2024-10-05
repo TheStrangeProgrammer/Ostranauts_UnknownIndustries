@@ -1,0 +1,14 @@
+[
+    {
+      "strName" : "UI_UnknownIndustries_Kiosk",
+      "dictGUIPropMap"       : [
+        "strLoot", "UI_Itm_Kiosk_Inv_UnknownIndustries",
+        "strRestockCond", "IsReadyRestock",
+        "strTicker", "RestockSupplyKiosk",
+        "strLootBuyDiscount", "CONDTraderDiscountBuyKiosk",
+        "strLootSellDiscount", "CONDTraderDiscountSellKioskScrap",
+        "strLootCTsBuy", "TraderCTsBuyBartender",
+        "strLootCTsSell", "TraderCTsSellChargen"
+      ]
+    }
+  ]

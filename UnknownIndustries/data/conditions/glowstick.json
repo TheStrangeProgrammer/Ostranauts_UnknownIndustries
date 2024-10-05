@@ -1,0 +1,73 @@
+[
+   
+    {
+        "strName": "UI_Stat_GlowStick_Used",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "[us]'s Timer.",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_Stat_GlowStick_Used_Max",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "[us]'s Max Timer.",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_Is_GlowStick_Red",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_Is_GlowStick_Green",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_Is_GlowStick_Blue",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_Is_GlowStick_Purple",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_Is_GlowStick",
+        "strNameFriendly": "",
+        "strColor": "Neutral",
+        "strDesc": "",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    },
+    {
+        "strName": "UI_T_Is_GlowStick_Unlit",
+        "strCondName": "",
+        "fChance": 1.0,
+        "fCount": 1.0,
+        "aReqs": [
+            "UI_Is_GlowStick"
+        ],
+        "aForbids": [
+            "UI_Is_GlowStick_Lit"
+        ],
+        "aTriggers": [],
+        "bAND": true
+    }
+]

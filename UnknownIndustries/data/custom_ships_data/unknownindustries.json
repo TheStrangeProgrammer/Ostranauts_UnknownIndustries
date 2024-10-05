@@ -1,0 +1,73 @@
+[
+    {
+        "strName" : "UI_UnknownUndustries",
+        "strTargetShip" : "OKLG Bureaus",
+        "aItems": [
+            {
+                "strName": "UI_Itm_Kiosk_UnknownIndustries",
+                "fX": -30.0,
+                "fY": -33.0,
+                "fRotation": 90.0,
+                "aGPMSettings": [
+                    {
+                        "strName": "Panel A",
+                        "dictGUIPropMap": [
+                            "strGUIPrefab",
+                            "GUITrade/GUITrade",
+                            "strFriendlyName",
+                            "Trading Interface",
+                            "strGUIPrefabRight",
+                            null,
+                            "strGUIPrefabLeft",
+                            "Panel Left",
+                            "strGUIPrefabUp",
+                            null,
+                            "strGUIPrefabDown",
+                            null
+                        ]
+                    },
+                    {
+                        "strName": "Trade",
+                        "dictGUIPropMap": [
+                            "strGUIPrefab",
+                            "GUITrade/GUITrade",
+                            "strFriendlyName",
+                            "Trading Interface",
+                            "strGUIPrefabRight",
+                            null,
+                            "strGUIPrefabLeft",
+                            "Panel Left",
+                            "strGUIPrefabUp",
+                            null,
+                            "strGUIPrefabDown",
+                            null
+                        ]
+                    },
+                    {
+                        "strName": "Trader",
+                        "dictGUIPropMap": [
+                            "strLoot",
+                            "UI_Itm_Kiosk_Inv_UnknownIndustries",
+                            "strRestockCond",
+                            "IsReadyRestock",
+                            "strTicker",
+                            "RestockSupplyKiosk",
+                            "strLootBuyDiscount",
+                            "CONDTraderDiscountBuyKiosk",
+                            "strLootSellDiscount",
+                            "CONDTraderDiscountSellKiosk",
+                            "strLootCTsBuy",
+                            "TraderCTsBuyBartender",
+                            "strLootCTsSell",
+                            "TraderCTsSellChargen",
+                            "strCTBuyLast",
+                            "TNever",
+                            "strCTSellLast",
+                            "TIsBarterChargen"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

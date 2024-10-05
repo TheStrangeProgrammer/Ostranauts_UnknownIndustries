@@ -1,0 +1,75 @@
+[
+    {
+        "strName" : "UI_Itm_Filter_CO2_Helmet_EVA",
+        "strNameShort" : "CO2 Filter",
+        "strNameFriendly" : "CO2 Filter: EVA",
+        "strDesc" : "A CO2 filter designed for the 'Unknown Industries' EVA helmet's custom requirements.",
+        "strItemDef" : "UI_Itm_Filter_CO2_Helmet_EVA",
+        "strType"    : "Item",
+        "nStackLimit"    : 1,
+        "aInteractions" : [
+          "DropItem",
+          "PickupItem"
+        ],
+        "aStartingConds" : [
+          "UI_Is_UnknownIndustries=1.0x1.0",
+          "IsComponent=1.0x1",
+          "IsMechanical=1.0x1",
+          "IsFilterCO2=1.0x1.0",      
+          "IsSolid=1.0x1.0",
+          "IsPocketable=1.0x1.0",
+          "StatBasePrice=1.0x235",
+          "StatMass=1.0x2.5",
+          "StatDamageMax=1.0x5",
+          "IsCategoryIndustrialProducts=1.0x1"
+        ],
+        "mapChargeProfiles"  : [
+          "Melee","MeleeAttackDefaultExtraFragile"
+        ],
+        "aUpdateCommands" : [
+          "Destructable,StatDamage,ACTFilterCO2Dmg,StatDamageMax,1.0"
+        ],
+        "strPortraitImg"  : "ItmFilter02",
+        "strAudioEmitter" : "ItmBatteryGeneralSound",
+        "mapSlotEffects" : [
+          "heldL","HeldItmDefaultSoftL",
+          "heldR","HeldItmDefaultSoftR"
+        ]
+      },
+      {
+        "strName" : "UI_Itm_Filter_CO2_Helmet_EVA_Dmg",
+        "strNameShort" : "CO2 Filter",
+        "strNameFriendly" : "CO2 Filter: EVA (Damaged)",
+        "strDesc" : "A CO2 filter designed for the Bingham-12 EVA suit's custom requirements.",
+        "strItemDef" : "ItmFilterCO202Dmg",
+        "strType"    : "Item",
+        "nStackLimit"    : 1,
+        "aInteractions" : [
+          "DropItem",
+          "PickupItem"
+        ],
+        "aStartingConds" : [
+          "IsComponent=1.0x1",
+          "IsMechanical=1.0x1",
+          "IsFilterCO2=1.0x1.0",
+          "IsDamaged=1.0x1",
+          "IsSolid=1.0x1.0",
+          "IsPocketable=1.0x1.0",
+          "StatBasePrice=1.0x235",
+          "StatMass=1.0x2.5",
+          "StatDamageMax=1.0x5",
+          "IsCategoryIndustrialProducts=1.0x1"
+        ],
+        "mapChargeProfiles"  : [
+          "Melee","MeleeAttackDefaultExtraFragile"
+        ],
+        "aUpdateCommands" : [
+          "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+        ],
+        "strPortraitImg"  : "ItmFilter02DmgFull",
+        "mapSlotEffects" : [
+          "heldL","HeldItmDefaultSoftL",
+          "heldR","HeldItmDefaultSoftR"
+        ]
+      }
+]

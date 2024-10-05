@@ -1,0 +1,46 @@
+[
+    {
+        "strName" : "UI_Itm_Filter_CO2_Helmet_EVA",
+        "strImg"  : "ItmFilter02",
+        "strImgNorm"  : "ItmFilter02n",
+        "strImgDamaged" : "ItmFilter02DmgFull",
+        "strDmgColor" : "DamageTintNone",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]  
+      },
+      {
+        "strName" : "UI_Itm_Filter_CO2_Helmet_EVA_Dmg",
+        "strImg"  : "ItmFilter02DmgFull",
+        "strImgNorm"  : "ItmFilter02n",
+        "strImgDamaged" : "",
+        "strDmgColor" : "DamageTintNone",
+        "fZScale"  : 0.02,
+        "nCols"  : 1,
+        "aSocketAdds"    : [
+          "TILItemAdds"
+        ],
+        "aSocketForbids"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "TILItemForbids", "Blank",
+          "Blank", "Blank", "Blank"
+        ],
+        "aSocketReqs"    : [
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank",
+          "Blank", "Blank", "Blank"
+        ]  
+      }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "strName": "UI_Is_Light_Floor",
+        "strNameFriendly": "Floor Light",
+        "strColor": "Neutral",
+        "strDesc": "[us] is a floor light.",
+        "nDisplaySelf": 0,
+        "nDisplayOther": 0
+    }
+]
