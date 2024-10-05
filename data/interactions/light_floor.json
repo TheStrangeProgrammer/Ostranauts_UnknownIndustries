@@ -27,7 +27,7 @@
         "CTTestUs": "UI_T_Is_LightSource_On",
         "CTTestThem": null,
         "aLootItms": [],
-        "objLootModeSwitch": "UI_Itm_Light_Floor_Off"
+        "objLootModeSwitch": "UI_Itm_Light_Floor_Blue_Off"
     },
     {
         "strName": "UI_MS_LightSwitch_On_Allow",
@@ -47,6 +47,6 @@
         "CTTestUs": "UI_T_Is_LightSource_Off",
         "CTTestThem": null,
         "aLootItms": [],
-        "objLootModeSwitch": "UI_Itm_Light_Floor_On"
+        "objLootModeSwitch": "UI_Itm_Light_Floor_Blue"
     }
 ]

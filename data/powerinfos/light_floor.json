@@ -1,3 +1,15 @@
 [
-    
+    {
+        "strName" : "UI_Floor_Light",
+        "aInputPts"      : [
+          "PowerSource"
+        ],
+        "fAmount": 0.0000000625,
+        "strIntPowerOn": "UI_MS_LightSwitch_On_Allow",
+        "strIntPowerOff": "UI_MS_LightSwitch_Off_Allow",
+        "strShutDownCT": "TIsConnctedSignalledOff",
+        "strUsePowerCT": "TIsReadyUsePower",
+        "strRechargeCT": null,
+        "bAllowExtPower" :  true
+      }
 ]

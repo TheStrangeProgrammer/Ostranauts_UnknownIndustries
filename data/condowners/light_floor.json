@@ -15,7 +15,6 @@
           "IsCheckRoom=1.0x1",
           "IsInstalled=1.0x1",
           "IsLightSource=1.0x1",
-          "IsLitWall1x0WhiteCool=1.0x1",
           "IsNonHighlightable=1.0x1",
           "IsPowered=1.0x1",
           "IsSalvageValueHigh=1.0x1.0",
@@ -46,7 +45,7 @@
         "aTickers" : [ 
           "Power"
         ],
-        "jsonPI"            : "Light"
+        "jsonPI"            : "UI_Floor_Light"
       },
       {
         "strName" : "UI_Itm_Light_Floor_Blue_Off",
@@ -64,7 +63,6 @@
           "IsInstalled=1.0x1",
           "IsCheckRoom=1.0x1",
           "IsLightSource=1.0x1",
-          "IsLitWall1x0WhiteCool=1.0x1",
           "IsNonHighlightable=1.0x1",
           "IsOff=1.0x1",
           "IsSalvageValueHigh=1.0x1.0",
@@ -95,7 +93,7 @@
         "aTickers" : [ 
           "Power"
         ],
-        "jsonPI"            : "Light"
+        "jsonPI"            : "UI_Floor_Light"
       },
       {
         "strName" : "UI_Itm_Light_Floor_Blue_Off_Loose",
@@ -111,7 +109,6 @@
             "UI_Is_UnknownIndustries=1.0x1",
             "UI_Is_Light_Floor=1.0x1",
           "IsLightSource=1.0x1",
-          "IsLitWall1x0WhiteCool=1.0x1",
           "IsOff=1.0x1",
           "IsSalvageValueHigh=1.0x1.0",
           "IsSolid=1.0x1.0",
