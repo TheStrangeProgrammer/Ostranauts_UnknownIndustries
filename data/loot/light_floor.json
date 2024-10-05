@@ -24,5 +24,14 @@
         "aLoots"  : [
         ],
         "strType" : "item"
+      },
+      {
+        "strName" : "UI_Itm_Light_Floor_Blue_Off_Loose",
+        "aCOs"    : [
+          "UI_Itm_Light_Floor_Blue_Off_Loose=1.0x1"
+        ],
+        "aLoots"  : [
+        ],
+        "strType" : "item"
       }
 ]
