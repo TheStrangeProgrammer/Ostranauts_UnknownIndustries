@@ -18,13 +18,15 @@ namespace UnknownIndustries
     public static class Main
     {
         public static bool enabled;
+        
 
         static bool Load(UnityModManager.ModEntry modEntry)
         {
-            var harmony = new Harmony("com.ostranauts.kubouch.mod_example");
+
+            var harmony = new Harmony("com.ostranauts.thestranger.unknownindustries");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
             modEntry.OnToggle = OnToggle;
-
+            
             return true;
         }
 

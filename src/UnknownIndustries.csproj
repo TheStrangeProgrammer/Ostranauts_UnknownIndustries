@@ -69,14 +69,20 @@
     <Compile Include="JsonLoader.cs" />
     <Compile Include="LootOverride.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="ModManager\ModManager.cs" />
+    <Compile Include="ModManager\Mod.cs" />
     <Compile Include="Patches\PatchCondOwner.cs" />
     <Compile Include="Patches\PatchCrewSim.cs" />
     <Compile Include="Patches\PatchDataHandler.cs" />
     <Compile Include="Patches\PatchGUIHelmet.cs" />
     <Compile Include="Patches\PatchGUIItemList.cs" />
+    <Compile Include="Patches\PatchGUIModRow.cs" />
+    <Compile Include="Patches\PatchGUIOptions.cs" />
     <Compile Include="Patches\PatchInitShip.cs" />
+    <Compile Include="Patches\PatchMainMenu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShipOverride.cs" />
+    <Compile Include="UI.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
